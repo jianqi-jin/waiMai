@@ -1,5 +1,6 @@
 /* components/themeView/themeView.wxss */
 .themeViewS{
-  --themeC: #3f44ff;
-  --themeBorderC: #ff0000;
+  --themeC: #F7BC54;
+  --themeBorderC: #F7BC54;
+  --themeBackC: #F7BC54;
 }
