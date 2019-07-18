@@ -29,5 +29,6 @@ const address = {
 
 
 module.exports = {
-  getAddressList:address.getAddressList
+  getAddressList:address.getAddressList,
+  // login: login.login
 }

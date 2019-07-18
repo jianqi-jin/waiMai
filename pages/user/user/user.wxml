@@ -3,6 +3,9 @@
   <text>pages/user/user/user.wxml</text>
 </view>
 
-<theme-view type='themeBack'>
+
+
+
+<theme-view>
   <view class='btn'>asd</view>
 </theme-view>

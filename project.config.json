@@ -13,7 +13,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.5",
-	"appid": "wx37194af9a34ac360",
+	"appid": "wxdc7daedd3340202e",
 	"projectname": "waiMai",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -39,12 +39,19 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "user",
 					"pathName": "pages/user/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/home/home",
 					"scene": null
 				}
 			]
