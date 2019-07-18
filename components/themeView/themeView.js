@@ -4,14 +4,17 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    type: {
+      type: String,
+      value: ''
+    }
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-
+    style:''
   },
 
   /**
@@ -19,5 +22,12 @@ Component({
    */
   methods: {
 
+  },
+  ready(){
+    console.log('ready')
+    console.log(this.properties.type)
+    this.setData({
+      style: ''//getApp().globalData[this.properties.type]
+    })
   }
 })

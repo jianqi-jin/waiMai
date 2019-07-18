@@ -1,0 +1,13 @@
+/* pages/user/user/user.wxss */
+
+.test{
+  --titleC:#f3f3f3;
+}
+text{
+  color:var(--titleC)
+}
+
+.btn{
+  color: var(--themeC);
+  border: 1rpx solid var(--themeBorderC);
+}

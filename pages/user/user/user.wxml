@@ -1,0 +1,8 @@
+<!--pages/user/user/user.wxml-->
+<view class='test'>
+  <text>pages/user/user/user.wxml</text>
+</view>
+
+<theme-view type='themeBack'>
+  <view class='btn'>asd</view>
+</theme-view>

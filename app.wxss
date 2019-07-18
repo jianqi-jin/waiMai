@@ -1,4 +1,5 @@
 /**app.wxss**/
+
 .container {
   height: 100%;
   display: flex;
@@ -7,4 +8,23 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
+
+/** 全局css*/
+
+page {
+  /**标题文字颜色*/
+  --titleC: #ccc;
+  --titleW: 500;
+  /**内容文字颜色*/
+  --contentC: #ccc;
+  --contentW: 500;
+  /**说明文字颜色*/
+  --infoC: #ccc;
+  --infoW: #ccc;
+  /**标题文字颜色*/
+  --themeC: #ccc;
+  --themeBorderC: #ccc;
+}
+
+/** 全局css*/

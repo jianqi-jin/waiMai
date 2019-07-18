@@ -1,5 +1,17 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/good/orderDetail/orderDetail",
+    "pages/order/orderDetail/orderDetail",
+    "pages/order/orderList/orderList",
+    "pages/order/comment/comment",
+    "pages/address/addressList/addressList",
+    "pages/address/editAddress/editAddress",
+    "pages/user/user/user",
+    "pages/user/myComment/myComment",
+    "pages/user/moneyDetail/moneyDetail",
+    "pages/user/coupon/coupon",
+    "pages/user/qrcode/qrcode",
     "pages/index/index",
     "pages/logs/logs"
   ],

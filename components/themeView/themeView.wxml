@@ -1,2 +1,4 @@
 <!--components/themeView/themeView.wxml-->
-<text>components/themeView/themeView.wxml</text>
+<view class='themeViewS'>
+  <slot></slot>
+</view>
