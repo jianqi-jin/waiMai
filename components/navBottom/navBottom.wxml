@@ -10,8 +10,6 @@
         <view>{{item.title}}</view>
       </view>
     </view>
-
-
     <!-- closeBtn -->
     <view class='navItem close' bindtap='toggleNavBar'>
       <image src='{{!showFlage?"/res/icon/icon-jia@3x.png":"/res/icon/nav-icon-close@3x.png"}}'></image>

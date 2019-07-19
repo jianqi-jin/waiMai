@@ -1,4 +1,7 @@
 /* pages/home/home.wxss */
+.container-page{
+  background: #fff;
+}
 .header{
   padding-left: 24rpx;
   padding-right: 24rpx;
