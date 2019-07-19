@@ -8,11 +8,11 @@ Page({
   data: {
     info: {
       iconImg: '',
-      title: '',
+      title: '餐盒',
       iconArr: '',
       value: '',
-      titleColor: '',
-      valueColor: ''
+      titleColor: '#999999',
+      valueColor: '￥2'
     }
   },
 
