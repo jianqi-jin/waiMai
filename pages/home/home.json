@@ -1,6 +1,7 @@
 
 {
   "usingComponents": {
-    "nav-bottom": "/components/navBottom/navBottom"
+    "nav-bottom": "/components/navBottom/navBottom",
+    "reduce-add": "/components/reduceAdd/reduceAdd"
   }
 }

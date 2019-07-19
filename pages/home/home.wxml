@@ -94,12 +94,13 @@
             <view class="shu_left fl">
               <text class="yuan">￥</text><text class="price">16.9</text>元/份
             </view>
-            <view class="shu_right fr">
+            <!-- <view class="shu_right fr">
               <view class="fl reduce">-</view>
               <view class="fl number">1</view>
               <view class="fr add">+</view>
               <view class="clear"></view>
-            </view>
+            </view> -->
+            <reduce-add class="fr"></reduce-add>
             <view class='clear'></view>
           </view>
         </view>
@@ -109,12 +110,48 @@
     <view class="clear"></view>
   </view>
   <!-- 底部导航开始 -->
-  <view class="footer">
+  <view class="footer" hidden="true">
     <image src="/doc/seletct-not-cart@3x.png" class="fl"></image>
     <view class="food fl">未选择食物</view>
     <view class="fr selected">选好了</view>
     <view class="clear"></view>
   </view>
+  <!-- 点开底部展开系列开始 -->
+  <view class="select_status"></view>
+  <!-- 点开底部展开系列结束 -->
+  <view class="open">
+    <view class="open_title">
+      <view class="fl selected_goods">已选商品</view>
+      <view class="fr open_right">
+        <image src="/doc/icon-qk@3x.png"></image>
+        <text>清空</text>
+      </view>
+    </view>
+    <view class="part">
+      <view class="part1">
+        <image src="/doc/banner@3x.png" class="fl"></image>
+        <view class="fl part_right">
+          <view class="part_right_title">招牌帕尼尼汉堡</view>
+          <view class="part_detail">
+            <view class="part_detail_left"><text class="yuan">￥</text><text class="price">16.9</text>元/分</view>
+            <reduce-add class="dign"></reduce-add>  
+          </view>
+        </view>
+        <view class="clear"></view>
+      </view>
+      <view class="part1">
+        <image src="/doc/banner@3x.png" class="fl"></image>
+        <view class="fl part_right">
+          <view class="part_right_title">招牌帕尼尼汉堡</view>
+          <view class="part_detail">
+            <view class="part_detail_left"><text class="yuan">￥</text><text class="price">16.9</text>元/分</view>
+            <reduce-add class="dign"></reduce-add>  
+          </view>
+        </view>
+        <view class="clear"></view>
+      </view>
+    </view>
+  </view>
 </view>
 
-<nav-bottom></nav-bottom>
+<!-- <nav-bottom></nav-bottom> -->

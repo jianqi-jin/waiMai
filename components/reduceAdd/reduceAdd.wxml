@@ -1,0 +1,7 @@
+<!--components/reduceAdd/reduceAdd.wxml-->
+<view class="shu_right">
+  <view class="fl reduce">-</view>
+  <view class="fl number">1</view>
+  <view class="fr add">+</view>
+  <view class="clear"></view>
+</view>

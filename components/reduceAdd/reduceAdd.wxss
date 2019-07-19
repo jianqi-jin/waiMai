@@ -1,0 +1,38 @@
+/* components/reduceAdd/reduceAdd.wxss */
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+.shu_right{
+  width: 131rpx;
+  height: 46rpx;
+  border:1rpx solid #F7BC54;
+  border-radius: 23rpx;
+  line-height: 46rpx;
+}
+.shu_right>view{
+  width: 33.33%;
+  text-align: center;
+}
+.reduce{
+  font-size: 30rpx;
+  color: #F7BC54;
+  font-weight: bold;
+  
+}
+.number{
+  font-size: 30rpx;
+  color: #333333;
+  text-align: center;
+}
+.add{
+  font-size: 30rpx;
+  color: #fff;
+  background: #F7BC54;
+  border-radius: 100%; 
+}

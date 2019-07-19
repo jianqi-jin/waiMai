@@ -264,3 +264,82 @@
   font-weight: bold;
   margin-top: 9rpx;
 }
+/* 展开列表开始 */
+.select_status{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+}
+.open_title{
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #F5F5F5;
+}
+.open{
+  position: fixed;
+  z-index: 100;
+  bottom: 0rpx;
+  left: 0rpx;
+  width: 100%;
+  background: #fff;
+
+}
+.selected_goods{
+  font-size: 28rpx;
+  color: #999999;
+}
+.open_right>image{
+  width: 31rpx;
+  height: 31rpx;
+  margin-right: 10rpx;
+  position: relative;
+  top: 5rpx;
+}
+.open_right>text{
+  font-size: 28rpx;
+  color: #999999;
+}
+.part{
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+}
+.part1{
+  padding-top: 33rpx;
+  padding-bottom: 25rpx;
+  border-bottom: 1rpx solid #F5F5F5;
+}
+.part1>image{
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 16rpx;
+}
+.part_right{
+  width: 507rpx;
+  position: relative;
+}
+.part_right_title{
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: bold;
+  margin-top: 12rpx;
+  margin-bottom: 83rpx;
+}
+/* .yuan{
+  font-size: 24rpx;
+  color: #EA9E17;
+} */
+.part_detail_left{
+  font-size: 22rpx;
+  color: #333333;
+}
+.dign{
+  position: absolute;
+  top:123rpx;
+  right: 0rpx;
+}
