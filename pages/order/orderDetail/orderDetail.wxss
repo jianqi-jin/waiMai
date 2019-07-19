@@ -2,9 +2,7 @@
 
 .mainBox {
   position: absolute;
-  height: 10000rpx;
   width: 100%;
-  top: 90%;
 }
 
 .map {
@@ -77,15 +75,18 @@
 
 .orderBox {
   background: var(--bgColor);
+  margin-top: 55rpx;
+  padding-bottom: 30rpx;
 }
-
+.orderInfoBox{
+  margin: 20rpx 24rpx 0 24rpx;
+}
 .orderInfoBoxTitle {
   font-size: 30rpx;
   font-family: PingFang-SC-Heavy;
   font-weight: 800;
   color: rgba(28, 28, 28, 1);
   padding: 36rpx 24rpx;
-  margin: 0 24rpx;
   background: #fff;
 }
 
@@ -94,7 +95,7 @@
   font-family: PingFang-SC-Heavy;
   font-weight: 800;
   color: rgba(28, 28, 28, 1);
-  padding: 60rpx 0 45rpx 25rpx;
+  padding: 60rpx 0 25rpx 25rpx;
 }
 
 /* goodInfo    可能要组建抽象 */
@@ -106,7 +107,7 @@
   align-items: flex-start;
   justify-content: space-between;
   padding: 33rpx 24rpx;
-  margin: 4rpx 24rpx 0 24rpx;
+  margin-top: 4rpx;
 }
 
 .orderGoodInfoLeft {

@@ -6,7 +6,7 @@
   <view wx:if="{{info.iconArr.length > 0}}" class='icon'>
     <image src='{{info.iconArr}}'></image>
   </view>
-  <view wx:if="{{info.value.length > 0}}" class='value' style='color:{{info.valueColor.length > 0 ?info.valueColor:""}}'>
+  <view wx:if="{{info.value.length > 0}}" class='value' style='color:{{info.valueColor.length > 0 ?info.valueColor:""}};{{info.valueStyle}}'>
     {{info.value}}
   </view>
 </view>

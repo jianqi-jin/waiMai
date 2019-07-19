@@ -1,13 +1,13 @@
 <!--pages/order/orderDetail/orderDetail.wxml-->
 
 <theme-view>
-  <view class='map'>
+  <view class='map' wx:if='{{type==0}}'>
     <detail-map></detail-map>
   </view>
   <view style='height: 1rpx;'></view>
 
-  <view class='mainBox'>
-    <view class='payInfoBox'>
+  <view class='mainBox' style='top:{{type==1?"-55rpx":"70%"}}'>
+    <view class='payInfoBox' wx:if='{{type==0}}'>
       <view class='payBoxTitle'>
         <view class='icon'>
           <image src='/res/icon/icon-time@3x.png'></image>
@@ -43,6 +43,7 @@
 
     <view class='orderBox'>
       <view class='orderTitle'>订单待支付</view>
+      <!-- 餐品详情 -->
       <view class='orderInfoBox'>
         <view class='orderInfoBoxTitle'>道里爱建轻者轻食总店</view>
         <!-- goodInfo -->
@@ -69,13 +70,23 @@
         <!-- 抽象组件 -->
         <!-- goodInfo End -->
 
-        <info-item info='{{info}}'></info-item>
-
-
-
+        <info-item wx:for="{{infoList}}" wx:key='index' info='{{item}}'></info-item>
       </view>
-    </view>
 
+      <!-- 自取信息 -->
+      <view class='orderInfoBox'>
+        <view class='orderInfoBoxTitle'>自取信息</view>
+        <info-item wx:for="{{infoList}}" wx:key='index' info='{{item}}'></info-item>
+      </view>
+
+
+      <!-- 订单信息 -->
+      <view class='orderInfoBox'>
+        <view class='orderInfoBoxTitle'>订单信息</view>
+        <info-item wx:for="{{infoList}}" wx:key='index' info='{{item}}'></info-item>
+      </view>
+
+    </view>
 
 
   </view>
