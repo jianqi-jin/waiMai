@@ -1,2 +1,41 @@
 <!--components/orderItem/orderItem.wxml-->
-<text>components/orderItem/orderItem.wxml</text>
+<theme-view>
+  <view class='orderItem'>
+    <view class='orderBoxTop'>
+      <view class='orderBoxTopLeft'>
+        <view class='orderBoxTopTitle'>道里爱建轻者轻食总店</view>
+        <view class='orderBoxTopContent titleFont'>招牌帕尼尼沙拉餐饼套餐 等2件商品</view>
+      </view>
+      <view class='orderBoxTopRight'>
+        <view class='orderBoxStatus'>待支付</view>
+        <view class='orderBoxPrice'>￥16.9</view>
+      </view>
+    </view>
+    <view class='orderBoxBottom'>
+      <view class='btnCancel'>取消订单</view>
+      <view class='btnPrimary'>立即支付</view>
+    </view>
+  </view>
+
+
+  
+  <view class='orderItem'>
+    <view class='orderBoxTop'>
+      <view class='orderBoxTopLeft'>
+        <view class='orderBoxTopTitle'>道里爱建轻者轻食总店</view>
+        <view class='orderBoxTopContent titleFont'>招牌帕尼尼沙拉餐饼套餐 等2件商品</view>
+      </view>
+      <view class='orderBoxTopRight'>
+        <view class='orderBoxStatus'>待支付</view>
+        <view class='orderBoxPrice'>￥16.9</view>
+      </view>
+    </view>
+    <view class='orderBoxBottom'>
+      <view class='btnCancel'>取消订单</view>
+      <view class='btnPrimary'>立即支付</view>
+    </view>
+  </view>
+
+
+  
+</theme-view>

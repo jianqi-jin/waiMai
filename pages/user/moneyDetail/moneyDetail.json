@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    
+  },
+  "navigationBarTitleText": "余额明细"
 }

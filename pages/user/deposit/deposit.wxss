@@ -1,0 +1,132 @@
+/* pages/user/deposit/deposit.wxss */
+
+.backBox {
+  height: 354rpx;
+  background: var(--themeBackCG);
+  padding: 50rpx 25rpx 25rpx 25rpx;
+}
+
+.adTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.adTitle .icon {
+  margin-right: 10rpx;
+}
+
+.icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.moneyBox {
+  margin-top: 55rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.moneyNum {
+  font-size: 56rpx;
+  font-family: PingFang-SC-Heavy;
+  font-weight: 800;
+  color: rgba(28, 28, 28, 1);
+}
+
+.moneyText {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(28, 28, 28, 1);
+}
+
+.mainBox {
+  background: #fff;
+  border-radius: 50rpx 0 50rpx 50rpx;
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 0.5);
+  padding: 55rpx 24rpx;
+}
+
+.fucAll {
+  margin-top: -183rpx;
+  background: #fff;
+  border-radius: 50rpx 0 0 50rpx;
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 0.5);
+  padding-bottom: 55rpx;
+}
+
+.longBlockBtn {
+  margin: 35rpx 32rpx;
+}
+
+.mainTitle {
+  font-weight: 800;
+}
+
+.depositCardList {
+  margin: 17rpx -100rpx 0 12rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.depositCardItem {
+  background: rgba(242, 218, 189, 0);
+  border: 2rpx solid rgba(238, 238, 238, 1);
+  border-radius: 5rpx;
+  margin: 31rpx 40rpx 0 0;
+  width: 200rpx;
+  height: 110rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  --color: rgba(51, 51, 51, 1);
+  --color2: rgba(153, 153, 153, 1);
+}
+
+.depositCardItemActive {
+  background: rgba(242, 218, 189, 0.3);
+  border: 2rpx solid rgba(252, 206, 156, 0.4);
+  --color: #9f702c;
+  --color2: #9f702c;
+}
+
+.cardTitle {
+  font-size: 32rpx;
+  font-family: PingFang-SC-Heavy;
+  font-weight: 800;
+  color: var(--color);
+}
+
+.payTypeBox {
+  margin: 47rpx 0 0 25rpx;
+}
+
+.payTitle {
+  font-weight: 800;
+}
+.adText{
+  font-size: 20rpx;
+}
+.payContent {
+  margin-top: 36rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.payContent .icon {
+  margin-right: 15rpx;
+}
+
+.cardInfo {
+  font-size: 20rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: var(--color2);
+}

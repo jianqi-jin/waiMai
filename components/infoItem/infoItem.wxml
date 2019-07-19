@@ -1,8 +1,12 @@
 <view class='infoItem'>
   <view class='title'>
-    <image src='{{info.iconImg}}'></image>
-    <view class='titleText'>{{info.title}}</view>
+    <image wx:if="{{info.iconImg.length > 0}}" src='{{info.iconImg}}'></image>
+    <view class='titleText' style='color:{{info.titleColor.length > 0 ? "info.titleColor":""}}'>{{info.title}}</view>
   </view>
-  <view class='icon'><image src='{{info.iconArr}}'></image></view>
+  <view wx:if="{{info.iconArr.length > 0}}" class='icon'>
+    <image src='{{info.iconArr}}'></image>
+  </view>
+  <view wx:if="{{info.value.length > 0}}" class='value' style='color:{{info.valueColor.length > 0 ?info.valueColor:""}}'>
+    {{info.value}}
+  </view>
 </view>
-

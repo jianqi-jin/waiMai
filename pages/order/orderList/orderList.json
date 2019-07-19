@@ -1,3 +1,9 @@
+
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "nav-bottom": "/components/navBottom/navBottom",
+    "nav-title": "/components/navTitle/navTitle",
+    "order-item": "/components/orderItem/orderItem"
+  }
+
 }

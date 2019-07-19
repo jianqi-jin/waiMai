@@ -1,1 +1,32 @@
 /* pages/user/moneyDetail/moneyDetail.wxss */
+
+.detaileItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35rpx 25rpx;
+  margin-top: 4rpx;
+  background: #fff;
+}
+
+.bottom {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 10rpx;
+}
+
+.top {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(28, 28, 28, 1);
+}
+.detailRight{
+  text-align: right;
+}
+.BoxTitle{
+  padding: 25rpx;
+}

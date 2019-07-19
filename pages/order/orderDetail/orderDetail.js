@@ -1,3 +1,4 @@
+
 // pages/order/orderDetail/orderDetail.js
 Page({
 
@@ -5,7 +6,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    info: {
+      iconImg: '',
+      title: '',
+      iconArr: '',
+      value: '',
+      titleColor: '',
+      valueColor: ''
+    }
   },
 
   /**

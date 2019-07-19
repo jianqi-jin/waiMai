@@ -1,2 +1,43 @@
 <!--pages/user/myComment/myComment.wxml-->
-<text>pages/user/myComment/myComment.wxml</text>
+
+<view class='backBox'>
+  <view class='userBox'>
+    <view class='userImg'>
+      <image src=''></image>
+    </view>
+    <view class='userName titleFont'>微信用户</view>
+  </view>
+</view>
+
+
+
+<!-- 评价列表 -->
+
+
+<view class='commentItem'>
+  <view class='commentTitle'>
+    <view class='titleLeft titleFont'>招牌帕尼尼沙拉餐饼套餐 等2件商品</view>
+    <view class='titleRight'>
+      删除
+      <view class='icon'>
+        <image src='/res/icon/icon-delete.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='commentContent'>
+    <view class='contentTitle infoFont'>
+      <view class='starBox'>
+        综合
+        <view class='star'></view>
+      </view>
+      <view class='starInfo'>味道：1星 服务：5星 配送：满意</view>
+    </view>
+    <view class='contentText titleFont'>评价内容 味道很好吃 分量也很大 谢谢店家的优惠，下次还来。点赞100+1</view>
+    <view class='contentLabel infoFont'>
+      <view class='icon'>
+        <image src=''></image>
+      </view>
+      味道赞，穿着专业，送货快，骑手服务很好，送货上门
+    </view>
+  </view>
+</view>

@@ -1,7 +1,41 @@
 <!--pages/user/user/user.wxml-->
-<view class='test'>
-  <text>pages/user/user/user.wxml</text>
-</view>
+
+<!-- 主题色部分 -->
 <theme-view>
-  <view class='btn'>asd</view>
+  <view class='backBox'>
+    <view class='userInfo'>
+      <view class='userImg'>
+        <image src=''></image>
+      </view>
+      <view class='userInfoBox'>
+        <view class='userName'>微信用户</view>
+        <view class='userTitle'>轻者轻食 让身体更健康</view>
+      </view>
+    </view>
+    <view class='qrCode'></view>
+  </view>
 </theme-view>
+<!-- 白色部分 -->
+<view class='mainBox'>
+  <view class='moneyBox'>
+    <view class='moneyTitle'>
+      <view class='icon'></view>
+      <view class='title'>账户余额（元）</view>
+    </view>
+    <view class='moneyContent'>
+      <view class='moneyLeft'>0.00</view>
+      <theme-view>
+        <navigator open-type='navigate' url='/pages/user/deposit/deposit' class='moneyRight'>充值有礼</navigator>
+      </theme-view>
+    </view>
+  </view>
+  <view class='infoBox'>
+    <info-item bindtap='onInfoClick' data-item='{{item}}' wx:for='{{info}}' wx:key='index' info='{{item}}'></info-item>
+  </view>
+</view>
+
+
+
+
+
+<nav-bottom></nav-bottom>

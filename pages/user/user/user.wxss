@@ -1,13 +1,89 @@
-/* pages/user/user/user.wxss */
-
-.test{
-  --titleC:#f3f3f3;
+.backBox {
+  height: 352rpx;
+  background: var(--themeBackCG);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 128rpx 23rpx 0 23rpx;
 }
-text{
-  color:var(--titleC)
+
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120rpx;
 }
 
-.btn{
-  color: var(--themeC);
-  border: 1rpx solid var(--themeBorderC);
+.userInfoBox {
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.userName {
+  font-size: 36rpx;
+  font-family: PingFang-SC-Heavy;
+  font-weight: 800;
+  color: rgba(28, 28, 28, 1);
+}
+
+.userTitle {
+  font-size: 26rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.8;
+}
+
+.mainBox {
+  width: 100%;
+  position: absolute;
+  top: 300rpx;
+  border-radius: 50rpx 50rpx 0 0;
+  overflow: hidden;
+}
+
+.moneyBox {
+  background: #fff;
+  height: 206rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 70rpx 30rpx 0 30rpx;
+}
+
+.moneyTitle {
+}
+
+.moneyContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60rpx;
+}
+
+.moneyLeft {
+  font-size: 58rpx;
+  font-family: PingFang-SC-Heavy;
+  font-weight: 800;
+  color: rgba(28, 28, 28, 1);
+  line-height: 15rpx;
+}
+
+.moneyRight {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  background: var(--themeBackCG);
+  width: 147rpx;
+  height: 52rpx;
+  border-radius: 100rpx;
+  text-align: center;
+  line-height: 52rpx;
+}
+
+.infoBox {
+  width: 100%;
+  margin-top: 20rpx;
 }

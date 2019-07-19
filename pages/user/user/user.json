@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    "theme-view": "/components/themeView/themeView"
-  }
+    "theme-view": "/components/themeView/themeView",
+    "nav-bottom": "/components/navBottom/navBottom",
+    "info-item": "/components/infoItem/infoItem"
+  },
+  "navigationStyle": "custom"
 }

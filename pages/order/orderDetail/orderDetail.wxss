@@ -1,1 +1,7 @@
 /* pages/order/orderDetail/orderDetail.wxss */
+.mainBox{
+  background: #fff;
+  height: 10000rpx;
+  width: 100%;
+  margin-top: 80%;
+}

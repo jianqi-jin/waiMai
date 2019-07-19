@@ -116,3 +116,5 @@
     <view class="clear"></view>
   </view>
 </view>
+
+<nav-bottom></nav-bottom>

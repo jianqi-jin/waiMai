@@ -13,7 +13,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.5",
-	"appid": "wxdc7daedd3340202e",
+	"appid": "wx37194af9a34ac360",
 	"projectname": "waiMai",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -50,8 +50,43 @@
 				},
 				{
 					"id": -1,
-					"name": "user",
-					"pathName": "pages/home/home",
+					"name": "coupon",
+					"pathName": "pages/user/coupon/coupon",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "moneyDetail",
+					"pathName": "pages/user/moneyDetail/moneyDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "myComment",
+					"pathName": "pages/user/myComment/myComment",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "deposit",
+					"pathName": "pages/user/deposit/deposit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "orderList",
+					"pathName": "pages/order/orderList/orderList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "orderDetail",
+					"pathName": "pages/order/orderDetail/orderDetail",
 					"scene": null
 				}
 			]

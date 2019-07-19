@@ -1,1 +1,5 @@
 /* pages/order/orderList/orderList.wxss */
+.navTitle{
+  padding: 25rpx;
+  background: #fff;
+}

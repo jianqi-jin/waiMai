@@ -1,6 +1,6 @@
+
 {
   "pages": [
-    "pages/search/search",
     "pages/home/home",
     "pages/good/orderDetail/orderDetail",
     "pages/order/orderDetail/orderDetail",
@@ -14,7 +14,9 @@
     "pages/user/coupon/coupon",
     "pages/user/qrcode/qrcode",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/user/deposit/deposit",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,2 +1,14 @@
 <!--pages/order/orderDetail/orderDetail.wxml-->
-<text>pages/order/orderDetail/orderDetail.wxml</text>
+
+<theme-view>
+  <detail-map></detail-map>
+
+<view style='height: 1rpx;'></view>
+
+<view class='mainBox'>
+  <view class=''></view>
+</view>
+
+  <info-item info='{{info}}'></info-item>
+</theme-view>
+

@@ -1,2 +1,13 @@
+
 <!--pages/order/orderList/orderList.wxml-->
-<text>pages/order/orderList/orderList.wxml</text>
+
+<theme-view>
+  <view class='navTitle'>
+    <nav-title bind:onAction='onNavChange' navTitleInfo='{{navTitleInfo}}'></nav-title>
+  </view>
+
+  <order-item></order-item>
+
+  <nav-bottom></nav-bottom>
+</theme-view>
+

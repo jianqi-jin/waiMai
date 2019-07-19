@@ -1,3 +1,6 @@
+
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "nav-bottom": "/components/navBottom/navBottom"
+  }
 }

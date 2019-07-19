@@ -3,4 +3,5 @@
   --themeC: #F7BC54;
   --themeBorderC: #F7BC54;
   --themeBackC: #F7BC54;
+  --themeBackCG: linear-gradient(90deg,rgba(255,191,91,1),rgba(255,222,141,1));
 }

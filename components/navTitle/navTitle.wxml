@@ -1,2 +1,13 @@
+
 <!--components/navTitle/navTitle.wxml-->
-<text>components/navTitle/navTitle.wxml</text>
+<theme-view>
+
+
+
+<view class='navTitleBox'>
+<view wx:for='{{navTitleInfo.navList}}' class='navItem{{navTitleInfo.currentNavIndex == item.id ? " active": ""}}' wx:key='index' bindtap='onTap' data-item='{{item}}'>{{item.title}}</view>
+
+</view>
+
+</theme-view>
+

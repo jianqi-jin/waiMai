@@ -1,2 +1,5 @@
+
 <!--pages/user/coupon/coupon.wxml-->
-<text>pages/user/coupon/coupon.wxml</text>
+
+<coupon-item bind:onBtnClick='btnClick' couponInfo='{{couponInfo}}'></coupon-item>
+

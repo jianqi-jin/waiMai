@@ -1,2 +1,21 @@
+
 <!--components/navBottom/navBottom.wxml-->
-<text>components/navBottom/navBottom.wxml</text>
+<theme-view>
+  <view class='navBottomV'>
+    <view class='navBox' style='animation:{{showFlage?"open":"close"}} 0.3s forwards'>
+      <view class='navItem' data-item='{{item}}' bindtap='tapFun' wx:for='{{navList}}' wx:key='index'>
+        <view class='icon'>
+          <image src='{{item.icon}}'></image>
+        </view>
+        <view>{{item.title}}</view>
+      </view>
+    </view>
+
+
+    <!-- closeBtn -->
+    <view class='navItem close' bindtap='toggleNavBar'>
+      <image src='{{!showFlage?"/res/icon/icon-jia@3x.png":"/res/icon/nav-icon-close@3x.png"}}'></image>
+    </view>
+  </view>
+</theme-view>
+

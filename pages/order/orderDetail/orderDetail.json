@@ -1,3 +1,9 @@
+
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "theme-view": "/components/themeView/themeView",
+    "detail-map": "/components/orderDetailMap/orderDetailMap",
+    "info-item": "/components/infoItem/infoItem"
+  },
+  "navigationBarTitleText": "订单"
 }

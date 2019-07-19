@@ -1,2 +1,28 @@
+
 <!--pages/user/moneyDetail/moneyDetail.wxml-->
-<text>pages/user/moneyDetail/moneyDetail.wxml</text>
+<view class='boxItem'>
+  <view class='BoxTitle'>2019年6月</view>
+
+  <view class='detaileItem'>
+    <view class='detailLeft'>
+      <view class='top'>在线支付</view>
+      <view class='bottom'>余额：89.3</view>
+    </view>
+    <view class='detailRight'>
+      <view class='top'>-98.3</view>
+      <view class='bottom'>2019.06.03</view>
+    </view>
+  </view>
+
+  <view class='detaileItem'>
+    <view class='detailLeft'>
+      <view class='top'>在线支付</view>
+      <view class='bottom'>余额：89.3</view>
+    </view>
+    <view class='detailRight'>
+      <view class='top'>-98.3</view>
+      <view class='bottom'>2019.06.03</view>
+    </view>
+  </view>
+  
+</view>

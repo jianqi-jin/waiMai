@@ -1,0 +1,42 @@
+<!--pages/user/deposit/deposit.wxml-->
+<theme-view>
+  <view class='backBox'>
+    <view class='adTitle'>
+      <view class='icon'>
+        <image src=''></image>
+      </view>
+      <view class='adText'>夏天***缘分在平台充值100元</view>
+    </view>
+    <view class='moneyBox'>
+      <view class='moneyNum'>0.00</view>
+      <view class='moneyText'>余额（元）</view>
+    </view>
+  </view>
+  <!-- 白色部分 -->
+  <view class='fucAll'>
+    <view class='mainBox'>
+      <view class='mainTitle titleFont'>充值金额（元）</view>
+      <view class='depositCardList'>
+
+        <view wx:for='{{cardList}}' wx:key='index' class='depositCardItem{{cardShowIndex == index?" depositCardItemActive": ""}}' bindtap='chooseCard' data-item='{{item}}'>
+          <view class='cardTitle'>100元</view>
+          <view class='cardInfo'>赠20元</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='payTypeBox'>
+      <view class='payTitle titleFont'>支付方式</view>
+      <view class='payContent'>
+        <view class='icon'>
+          <image src=''></image>
+        </view>
+        微信支付
+      </view>
+    </view>
+  </view>
+
+
+  <view class='longBlockBtn'>立即充值</view>
+
+</theme-view>
