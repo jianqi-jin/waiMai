@@ -1,1 +1,263 @@
 /* pages/home/home.wxss */
+.header{
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+}
+.pst{
+  width: 28rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+  margin-top: 13rpx;
+}
+.search{
+  width: 46rpx;
+  height: 46rpx;
+  margin-top: 8rpx;
+}
+.address{
+  font-size: 26rpx;
+  color: #1C1C1C;
+  font-weight: bold;
+}
+.add_detail{
+  font-size: 20rpx;
+  color: #999999;
+}
+.banner{
+  width: 702rpx;
+  height: 280rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 26rpx;
+  border-radius: 10rpx;
+}
+.set_meal{
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  margin-top: 38rpx;
+}
+.set_meal_header{
+  margin-bottom: 25rpx;
+   height: 36rpx;
+  line-height: 36rpx;
+}
+.xing{
+  width: 10rpx;
+  height: 33rpx;
+  border-radius: 5rpx;
+  background: #EBC278;
+  margin-right: 15rpx;
+  margin-top: 7rpx;
+}
+.quality{
+  font-size: 36rpx;
+  color: #1C1C1C;
+  font-weight: bold;
+}
+.reducte{
+  font-size: 24rpx;
+  color: #999999;
+}
+.set_meal_scroll{
+  white-space: nowrap; 
+  display: flex;
+}
+.scroll1{
+  width: 325rpx;
+  display: inline-block;
+  margin-right: 22rpx;
+}
+.scroll1>image{
+  width: 325rpx;
+  height: 203rpx;
+  border-radius: 10rpx;
+}
+.specife{
+  padding-left: 14rpx;
+}
+.specife_title{
+  font-size: 28rpx;
+  color: #1C1C1C;
+  font-weight: bold;
+  padding-top: 9rpx;
+}
+.price{
+  font-size: 24rpx;
+  color: #EA9E17;
+  padding-top: 6rpx;
+  padding-bottom: 18rpx;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.go{
+  width: 702rpx;
+  height: 195rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 36rpx;
+  margin-bottom: 29rpx;
+}
+/* 热卖 */
+.best_sellers{
+  padding-bottom: 100rpx;
+}
+.best_sellers_left{
+  width: 159rpx;
+  margin-right: 23rpx;
+  background: #F5F5F5;
+}
+.best_left_title{
+  background: #fff;
+  padding-bottom: 29rpx;
+}
+.best_left_title>image{
+  width: 33rpx;
+  height: 33rpx;
+  margin-right: 13rpx;
+  margin-left: 25rpx;
+  position: relative;
+  top: 6rpx;
+}
+.best_left_title>text{
+  font-size: 26rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.list{
+  font-size: 26rpx;
+  color: #666666;
+  text-align: center;
+  padding-top: 35rpx;
+  padding-bottom: 33rpx;
+}
+.best_sellers_right_title{
+  font-size: 26rpx;
+  color: #999999;
+}
+.best_sellers_right{
+  width: 570rpx;
+}
+.bst_view>image{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 5rpx;
+  margin-right: 16rpx;
+}
+.bst_title{
+  font-size: 28rpx;
+  color:#333333;
+  font-weight: bold;
+}
+.month{
+  font-size: 20rpx;
+  color: #999999;
+  margin-top: 10rpx;
+}
+.shu_left{
+  font-size: 22rpx;
+  color: #333333;
+}
+.yuan{
+  font-size: 23rpx;
+  color:#EA9E17;
+}
+.price{
+  font-size: 28rpx;
+  color:#EA9E17;
+  font-weight: bold;
+  margin-right: 5rpx;
+}
+.shu{
+  margin-top: 58rpx;
+}
+.shu_right{
+  width: 131rpx;
+  height: 46rpx;
+  border:1rpx solid #F7BC54;
+  border-radius: 23rpx;
+  line-height: 46rpx;
+}
+.shu_right>view{
+  width: 33.33%;
+  text-align: center;
+}
+/* .bst_view_fr{
+ 
+  padding-right: 25rpx;
+} */
+.bst_view_fr{
+  width: 350rpx;
+}
+.reduce{
+  font-size: 30rpx;
+  color: #F7BC54;
+  font-weight: bold;
+}
+.number{
+  font-size: 30rpx;
+  color: #333333;
+  text-align: center;
+}
+.add{
+  font-size: 30rpx;
+  color: #fff;
+  background: #F7BC54;
+  border-radius: 100%; 
+}
+.bst_view{
+  padding-bottom: 30rpx;
+  padding-top: 29rpx;
+  border-bottom: 1rpx solid #F5F5F5;
+}
+.addmenu{
+  width: 46rpx;
+  height: 46rpx;
+  background: #F7BC54;
+  border-radius: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: bold;
+  line-height: 46rpx;
+}
+/* 底部导航 */
+.footer{
+  width: 648rpx;
+  height: 98rpx;
+  line-height: 98rpx;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 49rpx;
+  position: fixed;
+  bottom: 9rpx;
+  left: 24rpx;
+  box-shadow:0px 0px 5px #F5F5F5;
+  padding-left: 45rpx;
+  padding-right: 9rpx;
+}
+.footer>image{
+  width: 78rpx;
+  height: 78rpx;
+  position: relative;
+  top: -10rpx;
+  margin-right: 16rpx;
+}
+.food{
+  font-size: 28rpx;
+  color: #999999;
+}
+.selected{
+  width: 180rpx;
+  height: 80rpx;
+  background: #CDCDCD;
+  border-radius: 40rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-top: 9rpx;
+}

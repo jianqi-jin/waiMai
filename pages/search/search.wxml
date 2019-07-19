@@ -1,0 +1,29 @@
+<view class="container-page">
+  <view class="header">
+    <image src="/doc/icon-search@3x.png" class="fl"></image>
+    <input placeholder='搜索轻者美食' class="fl"></input>
+    <view class="clear"></view>
+  </view>
+  <view class="hot">
+    <view class="hot_title">热门搜索</view>
+    <view class="content">
+      <view class="content1 fl">好吃的凯撒</view>
+      <view class="content1 fl">深海金枪鱼三明治</view>
+      <view class="content1 fl">招牌火龙果</view>
+      <view class="content1 fl">招牌火龙果</view>
+      <view class="content1 fl">招牌火龙果</view>
+      <view class="clear"></view>
+    </view>
+  </view>
+  <view class="records">
+    <view class="records_title">历史搜索</view>
+     <view class="content">
+      <view class="content1 fl">好吃的凯撒</view>
+      <view class="content1 fl">深海金枪鱼三明治</view>
+      <view class="content1 fl">招牌火龙果</view>
+      <view class="content1 fl">招牌火龙果</view>
+      <view class="content1 fl">招牌火龙果</view>
+      <view class="clear"></view>
+    </view>
+  </view>
+</view>

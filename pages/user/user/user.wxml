@@ -2,10 +2,6 @@
 <view class='test'>
   <text>pages/user/user/user.wxml</text>
 </view>
-
-
-
-
 <theme-view>
   <view class='btn'>asd</view>
 </theme-view>

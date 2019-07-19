@@ -28,3 +28,16 @@ page {
 }
 
 /** 全局css*/
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+.container-page{
+  width: 100%;
+  height: 100%;
+}
