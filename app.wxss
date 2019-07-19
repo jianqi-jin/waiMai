@@ -1,5 +1,5 @@
-
 /** 全局css*/
+
 page {
   /**标题文字颜色*/
   --titleC: #ccc;
@@ -13,8 +13,8 @@ page {
   /**标题文字颜色*//* --themeC: #ccc;
   --themeBorderC: #ccc; */
   font-size: 28rpx;
-  background: #F6F6F6;
-  --bgColor: #F6F6F6;
+  background: #f6f6f6;
+  --bgColor: #f6f6f6;
 }
 
 .icon image {
@@ -37,15 +37,7 @@ page {
 
 /** 全局css*/
 
-.longBlockBtn {
-  padding: 0 24rpx;
-  background: var(--themeBackCG);
-  border-radius: 47rpx;
-  height: 94rpx;
-  line-height: 94rpx;
-  color: #fff;
-  text-align: center;
-}
+
 
 .titleFont {
   font-size: 28rpx;
@@ -60,6 +52,7 @@ page {
   font-weight: 500;
   color: rgba(153, 153, 153, 1);
 }
+
 /**app.wxss**/
 
 .container {
@@ -90,16 +83,54 @@ page {
 }
 
 /** 全局css*/
-.fl{
+
+
+.longBlockBtn {
+  padding: 0 24rpx;
+  background: var(--themeBackCG);
+  border-radius: 47rpx;
+  height: 94rpx;
+  line-height: 94rpx;
+  color: #fff;
+  text-align: center;
+}
+
+/* 按钮样式 */
+
+.cancelBtn {
+  text-align: center;
+  line-height: 55rpx;
+  width: 160rpx;
+  height: 55rpx;
+  background: rgba(252, 206, 156, 0);
+  border: 2rpx solid rgba(238, 238, 238, 1);
+  border-radius: 5rpx;
+}
+
+/* 按钮样式 */
+
+.primaryBtn {
+  text-align: center;
+  line-height: 55rpx;
+  width: 160rpx;
+  height: 55rpx;
+  background: var(--themeBackC);
+  border-radius: 5rpx;
+}
+
+.fl {
   float: left;
 }
-.fr{
+
+.fr {
   float: right;
 }
-.clear{
+
+.clear {
   clear: both;
 }
-.container-page{
+
+.container-page {
   width: 100%;
   height: 100%;
 }

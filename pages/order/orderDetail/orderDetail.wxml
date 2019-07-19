@@ -1,14 +1,95 @@
 <!--pages/order/orderDetail/orderDetail.wxml-->
 
 <theme-view>
-  <detail-map></detail-map>
+  <view class='map' wx:if='{{type==0}}'>
+    <detail-map></detail-map>
+  </view>
+  <view style='height: 1rpx;'></view>
 
-<view style='height: 1rpx;'></view>
+  <view class='mainBox' style='top:{{type==1?"-55rpx":"70%"}}'>
+    <view class='payInfoBox' wx:if='{{type==0}}'>
+      <view class='payBoxTitle'>
+        <view class='icon'>
+          <image src='/res/icon/icon-time@3x.png'></image>
+        </view>
+        <view class='payBoxTitleText'>请在15分钟之内付款，否则将取消订单</view>
+      </view>
+      <view class='payBoxContent'>
+        <view class='payBoxContentTop'>
+          <view class='title'>自取时间：12:03</view>
+          <view class='info'>商家地址：道里区爱建路69-2号世纪广场旁边</view>
+        </view>
+        <view class='payBoxContentMiddle'>
+          <view class='BtnBox'>
+            <view class='cancelBtn'>取消订单</view>
+            <view class='primaryBtn'>立即付款</view>
+          </view>
+        </view>
+        <view class='payBoxContentBottom'>
+          <view class='icon'>
+            <image src='/res/icon/icon-tel-black@3x.png'></image>
+          </view>
+          <view>联系商家</view>
+        </view>
+      </view>
+    </view>
+    <!-- <info-item info='{{info}}'></info-item> -->
 
-<view class='mainBox'>
-  <view class=''></view>
-</view>
 
-  <info-item info='{{info}}'></info-item>
+
+    <!-- 以下为订单详情 -->
+
+
+
+    <view class='orderBox'>
+      <view class='orderTitle'>订单待支付</view>
+      <!-- 餐品详情 -->
+      <view class='orderInfoBox'>
+        <view class='orderInfoBoxTitle'>道里爱建轻者轻食总店</view>
+        <!-- goodInfo -->
+
+        <!-- 抽象组件 -->
+        <view class='orderGoodInfo'>
+          <view class='orderGoodInfoLeft'>
+            <view class='icon'>
+              <image src=''></image>
+            </view>
+            <view class='orderGoodInfoText'>
+              <view class='orderGoodInfoMiddleTitle'>帕尼尼汉堡套餐</view>
+              <view class='orderGoodInfoMiddlePrice'>
+                <view>￥</view>
+                <view>16.9</view>
+              </view>
+              <view class='orderGoodInfoMiddleInfo'>-帕尼尼芝士汉堡</view>
+              <view class='orderGoodInfoMiddleInfo'>-大份薯条</view>
+              <view class='orderGoodInfoMiddleInfo'>-大杯可乐汉堡套餐</view>
+            </view>
+          </view>
+          <view class='orderGoodInfoRight'>x2</view>
+        </view>
+        <!-- 抽象组件 -->
+        <!-- goodInfo End -->
+
+        <info-item wx:for="{{infoList}}" wx:key='index' info='{{item}}'></info-item>
+      </view>
+
+      <!-- 自取信息 -->
+      <view class='orderInfoBox'>
+        <view class='orderInfoBoxTitle'>自取信息</view>
+        <info-item wx:for="{{infoList}}" wx:key='index' info='{{item}}'></info-item>
+      </view>
+
+
+      <!-- 订单信息 -->
+      <view class='orderInfoBox'>
+        <view class='orderInfoBoxTitle'>订单信息</view>
+        <info-item wx:for="{{infoList}}" wx:key='index' info='{{item}}'></info-item>
+      </view>
+
+    </view>
+
+
+  </view>
+
+
 </theme-view>
-
