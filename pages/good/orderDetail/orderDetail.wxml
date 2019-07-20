@@ -1,2 +1,56 @@
 <!--pages/good/orderDetail/orderDetail.wxml-->
-<text>pages/good/orderDetail/orderDetail.wxml</text>
+
+<theme-view>
+  <view class='backBox'>
+
+  </view>
+
+  <view class='mainBox'>
+    <view class='mainTitle'>道里爱建轻者总店</view>
+    <view class='posBox'>
+      <info-item info='{{posInfo}}'></info-item>
+    </view>
+    <view class='orderBox'>
+      <!-- 抽象组件 orderItem Start -->
+      <view class='orderItem'>
+        <view class='orderItemLeft'>
+          <view class='orderItemTitle'>帕尼尼经典套餐</view>
+          <view class='orderItemPrice'>
+            <view>￥</view>
+            <view>16.9</view>
+          </view>
+          <view class='orderItemInfo'>-帕尼尼芝士汉堡</view>
+          <view class='orderItemInfo'>-大分薯条</view>
+          <view class='orderItemInfo'>-大杯可乐</view>
+          <view class='orderItemInfo'>-小贝鲜</view>
+        </view>
+        <view class='orderItemRight'>
+          <reduce-add bind:onAction='onNumChange' data-item='{{tempNum}}' number='{{tempNum}}'></reduce-add>
+        </view>
+      </view>
+      <!-- 抽象组件 orderItem End -->
+      <view class='orderBox'>
+        <info-item wx:for='{{infoList}}' info='{{item}}' wx:key='index'></info-item>
+        <view class='totleBox'>
+          <view>小计</view>
+          <view class='bigPrice'>￥59.8</view>
+        </view>
+      </view>
+
+      <view class='orderBox'>
+        <info-item info='{{payInfo}}'></info-item>
+      </view>
+
+    </view>
+  </view>
+
+  <view class='payBack'>
+    <view class='payBox'>
+      <view class='payBoxText'>
+        <view>实付</view>
+        <view class='bigPrice'>￥59.8</view>
+      </view>
+      <view class='payBoxBtn'>立即支付</view>
+    </view>
+  </view>
+</theme-view>

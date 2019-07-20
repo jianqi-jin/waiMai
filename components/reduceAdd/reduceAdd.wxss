@@ -1,38 +1,63 @@
 /* components/reduceAdd/reduceAdd.wxss */
-.fl{
+
+.fl {
   float: left;
 }
-.fr{
+
+.fr {
   float: right;
 }
-.clear{
+
+.clear {
   clear: both;
 }
-.shu_right{
+
+.shu_right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 131rpx;
   height: 46rpx;
-  border:1rpx solid #F7BC54;
-  border-radius: 23rpx;
+  border: 1rpx solid #f7bc54;
+  border-radius: 100rpx;
   line-height: 46rpx;
+  position: relative;
 }
-.shu_right>view{
+
+.shu_right>view {
   width: 33.33%;
+  height: 46rpx;
   text-align: center;
 }
-.reduce{
+
+.reduce {
   font-size: 30rpx;
-  color: #F7BC54;
+  color: #f7bc54;
   font-weight: bold;
-  
+  position: relative;
+  width: 50rpx;
+  height: 46rpx;
 }
-.number{
+
+.reduce::before {
+  content: '';
+  position: absolute;
+  top: 22rpx;
+  left: 15rpx;
+  width: 20rpx;
+  height: 6rpx;
+  background: var(--themeBackC);
+}
+
+.number {
   font-size: 30rpx;
-  color: #333333;
+  color: #333;
   text-align: center;
 }
-.add{
+
+.add {
   font-size: 30rpx;
   color: #fff;
-  background: #F7BC54;
-  border-radius: 100%; 
+  background: var(--themeBackC);
+  border-radius: 100%;
 }
