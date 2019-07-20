@@ -1,2 +1,38 @@
 <!--pages/good/goodDetail/goodDetail.wxml-->
-<text>pages/good/goodDetail/goodDetail.wxml</text>
+<theme-view>
+  <swiper class='swiper' indicator-dots="true" autoplay="true" interval="3e3" duration="500" circular="true">
+    <swiper-item>
+      <video class='swiperItem' src="https://www.runoob.com/try/demo_source/movie.ogg" />
+    </swiper-item>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image mode='aspectFill' class='swiperItem' src="{{imgUrls}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+  <view class='goodInfo'>
+    <view class='goodName'>招牌帕尼尼沙拉餐饼套餐</view>
+    <view class='goodInfoText'>Signature Panini Salad Cake Set</view>
+    <view class='goodInfoText'>帕尼尼芝士汉堡+鲜果水果捞+草莓鲜果茶</view>
+    <view class='goodInfoBottom'>
+      <view class='goodPrice'>￥
+        <view>36</view>
+      </view>
+      <view class='goodReduce'>
+        <reduce-add number='1'></reduce-add>
+      </view>
+    </view>
+  </view>
+
+
+
+  <view class='commentBox'>
+    <info-item info='{{commentTitle}}'></info-item>
+
+    <comment-item />
+
+  </view>
+
+</theme-view>

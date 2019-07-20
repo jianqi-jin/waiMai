@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "theme-view": "/components/themeView/themeView",
+    "reduce-add": "/components/reduceAdd/reduceAdd",
+    "info-item": "/components/infoItem/infoItem",
+    "comment-item": "/components/commentItem/commentItem"
+  },
+  "navigationBarTitleText": "商品详情"
 }
