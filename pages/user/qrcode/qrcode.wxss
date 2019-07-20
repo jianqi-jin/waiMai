@@ -1,1 +1,26 @@
 /* pages/user/qrcode/qrcode.wxss */
+
+page {
+  background: #fff;
+}
+
+.qrBox {
+  width: 604rpx;
+  height: 893rpx;
+  margin: 76rpx auto 0 auto;
+  background: var(--themeBackCG);
+  border-radius: 0px 50rpx 0px 50rpx;
+}
+
+.title {
+  text-align: center;
+  line-height: 111rpx;
+}
+
+.qrCodeBox {
+  width: 604rpx;
+  height: 654rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 22rpx 20rpx 0px rgba(255, 197, 125, 0.2);
+  border-radius: 0px 50rpx 0px 50rpx;
+}

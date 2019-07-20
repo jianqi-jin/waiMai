@@ -123,3 +123,6 @@
 .payBoxText>view:first-child {
   color: #999;
 }
+
+.chooseBox{
+}

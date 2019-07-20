@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    chooseShowFlag: false,
     tempNum: 0,
     posInfo: { //位置信息
       iconImg: '/res/icon/icon-address@3x.png',
@@ -64,6 +65,20 @@ Page({
    */
   onLoad: function(options) {
 
+  },
+  onChooseBoxAction(e){
+    let type = e.detail.type;
+    if(type == 'close'){
+      this.setData({
+        chooseShowFlag: false
+      })
+      return 
+    }
+  },
+  showChooseBox(){
+    this.setData({
+      chooseShowFlag: true
+    })
   },
   onNumChange(e) {
     console.log(e)

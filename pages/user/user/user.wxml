@@ -12,7 +12,9 @@
         <view class='userTitle'>轻者轻食 让身体更健康</view>
       </view>
     </view>
-    <view class='qrCode'></view>
+    <navigator open-type='navigate' url='/pages/user/qrcode/qrcode' class='qrCode'>
+      <image src='/res/icon/icon-ewm@3x.png'></image>
+    </navigator>
   </view>
 </theme-view>
 <!-- 白色部分 -->
