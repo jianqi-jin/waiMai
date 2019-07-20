@@ -1,0 +1,110 @@
+<view class="container-page">
+  <address-tu></address-tu>
+  <view class="part">
+    <view class="search">
+      <image src="/res/icon/icon-search@3x.png" class="fl"></image>
+      <input placeholder='查找门店、筛选门店' class="fl"></input>
+    </view>
+    <view class="examine">查看所有门店
+      <image src="/res/icon/icon-fi-down@3x.png"></image>
+    </view>
+    <scroll-view scroll-y="true" style="height: 868rpx">
+      <!-- <view style="background: red; width: 100px; height: 100px"></view>
+      <view style="background: green; width: 100px; height: 100px"></view>
+      <view style="background: blue; width: 100px; height: 100px"></view>
+      <view style="background: yellow; width: 100px; height: 100px"></view> -->
+      <view class="search_store">
+        <view class="current">当前门店</view>
+        <view class="current_title">
+          <view class="fl">哈尔滨轻者轻食爱建餐厅</view>
+          <view class="fr">990m</view>
+          <view class="clear"></view>
+        </view>
+        <view class="address">
+          <view class="fl">哈尔滨市道里区爱建路69-2号世纪广场旁边</view>
+          <image src="/res/icon/icon-right-little@3x.png" class="fr"></image>
+          <view class="clear"></view>
+        </view>
+        <theme-view>
+          <view class="address_btn">
+            <view class="fl">甜品站</view>
+            <view class="fl">免费Wi-Fi</view>
+            <view class="fl">24小时营业</view>
+            <view class="clear"></view>
+          </view>
+        </theme-view>
+      </view>
+      <view class="search_store">
+        <view class="current" hidden='true'>当前门店</view>
+        <view class="current_title">
+          <view class="fl">哈尔滨轻者轻食爱建餐厅</view>
+          <view class="fr">990m</view>
+          <view class="clear"></view>
+        </view>
+        <view class="address">
+          <view class="fl">哈尔滨市道里区爱建路69-2号世纪广场旁边</view>
+          <image src="/res/icon/icon-right-little@3x.png" class="fr"></image>
+          <view class="clear"></view>
+        </view>
+        <theme-view>
+          <view class="address_btn">
+            <view class="fl">甜品站</view>
+            <view class="fl">免费Wi-Fi</view>
+            <view class="fl">24小时营业</view>
+            <view class="clear"></view>
+          </view>
+        </theme-view>
+      </view>
+      <!-- 3 -->
+      <view class="search_store">
+        <view class="current" hidden='true'>当前门店</view>
+        <view class="current_title">
+          <view class="fl">哈尔滨轻者轻食爱建餐厅</view>
+          <view class="fr">990m</view>
+          <view class="clear"></view>
+        </view>
+        <view class="address">
+          <view class="fl">哈尔滨市道里区爱建路69-2号世纪广场旁边</view>
+          <image src="/res/icon/icon-right-little@3x.png" class="fr"></image>
+          <view class="clear"></view>
+        </view>
+        <theme-view>
+          <view class="address_btn">
+            <view class="fl">甜品站</view>
+            <view class="fl">免费Wi-Fi</view>
+            <view class="fl">24小时营业</view>
+            <view class="clear"></view>
+          </view>
+        </theme-view>
+      </view>
+      <!-- 4 -->
+      <view class="search_store">
+        <view class="current" hidden='true'>当前门店</view>
+        <view class="current_title">
+          <view class="fl">哈尔滨轻者轻食爱建餐厅</view>
+          <view class="fr">990m</view>
+          <view class="clear"></view>
+        </view>
+        <view class="address">
+          <view class="fl">哈尔滨市道里区爱建路69-2号世纪广场旁边</view>
+          <image src="/res/icon/icon-right-little@3x.png" class="fr"></image>
+          <view class="clear"></view>
+        </view>
+        <theme-view>
+          <view class="address_btn">
+            <view class="fl">甜品站</view>
+            <view class="fl">免费Wi-Fi</view>
+            <view class="fl">24小时营业</view>
+            <view class="clear"></view>
+          </view>
+        </theme-view>
+      </view>
+      <!-- 5 -->
+    </scroll-view>
+  </view>
+  <!-- 底部导航开始 -->
+  <theme-view>
+    <view class="footer">进入菜单点餐</view>
+  </theme-view>
+  <!-- 底部导航结束 -->
+</view>
