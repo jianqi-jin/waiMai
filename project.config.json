@@ -44,7 +44,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 10,
 			"list": [
 				{
 					"id": -1,
@@ -113,6 +113,13 @@
 					"id": -1,
 					"name": "goodDetail",
 					"pathName": "pages/good/goodDetail/goodDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "home",
+					"pathName": "pages/home/home",
 					"scene": null
 				}
 			]

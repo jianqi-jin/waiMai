@@ -54,3 +54,20 @@
 .goodReduce {
   margin-bottom: 15rpx;
 }
+
+.commentBox {
+  margin-top: 20rpx;
+}
+
+.goodDetail {
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 46rpx 22rpx;
+}
+
+.detailTitle {
+  font-size: 36rpx;
+  font-weight: 800;
+  color: rgba(28, 28, 28, 1);
+  line-height: 48rpx;
+}

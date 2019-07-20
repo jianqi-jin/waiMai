@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    showFlag: false
   },
 
   /**
@@ -16,12 +16,22 @@ Page({
       title: '轻者点餐',
     })
   },
+  toggleShow(){
+    this.setData({
+      showFlag: !this.data.showFlag
+    })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
 
+  },
+  navToHome(e){
+    wx.navigateTo({
+      url: '/pages/home/home'
+    })
   },
 
   /**

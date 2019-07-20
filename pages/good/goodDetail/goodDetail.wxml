@@ -32,7 +32,13 @@
     <info-item info='{{commentTitle}}'></info-item>
 
     <comment-item />
+    <comment-item />
 
   </view>
 
+
+<view class='goodDetail'>
+<view class='detailTitle'>餐品详情</view>
+  <rich-text></rich-text>
+</view>
 </theme-view>

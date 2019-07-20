@@ -1,226 +1,246 @@
 <theme-view>
-<view class="container-page">
-  <view class="header">
-    <image src="/res/icon/icon-add-little@3x.png" class="pst fl"></image>
-    <view class="heaer_middle fl">
-      <view class="address">哈尔滨轻者轻食爱建餐厅</view>
-      <view class="add_detail">哈尔滨市道里区爱建路69-2号 世纪广场旁边</view>
-    </view>
-    <image src="/res/icon/icon-search@3x.png" class="search fr"></image>
-    <view class="clear"></view>
-  </view>
-  <image src="/res/icon/banner@3x.png" class='banner'></image>
-  <!-- 优质套餐 -->
-  <view class="set_meal">
-    <view class="set_meal_header">
-      <view class="fl xing"></view>
-      <view class="quality fl">优质套餐</view>
-      <view class="fr reducte">每餐低至9.9元</view>
+  <view class="container-page">
+    <view class="header">
+      <image mode='aspectFill' src="/res/icon/icon-add-little@3x.png" class="pst fl"></image>
+      <view class="heaer_middle fl">
+        <view class="address">哈尔滨轻者轻食爱建餐厅</view>
+        <view class="add_detail">哈尔滨市道里区爱建路69-2号 世纪广场旁边</view>
+      </view>
+      <image src="/res/icon/icon-search@3x.png" class="search fr"></image>
       <view class="clear"></view>
     </view>
-    <view class="set_meal_detaile">
-      <scroll-view scroll-x class='set_meal_scroll'>
-        <view class="scroll1">
-          <image src='/res/icon/banner@3x.png'></image>
-          <view class="specife">
-            <view class="specife_title">招牌帕尼尼套餐...</view>
-            <view class="price">￥15.6</view>
-          </view>
-        </view>
-        <view class="scroll1">
-          <image src='/res/icon/banner@3x.png'></image>
-          <view class="specife">
-            <view class="specife_title">招牌帕尼尼套餐...</view>
-            <view class="price">￥15.6</view>
-          </view>
-        </view>
-        <view class="scroll1">
-          <image src='/res/icon/banner@3x.png'></image>
-          <view class="specife">
-            <view class="specife_title">招牌帕尼尼套餐...</view>
-            <view class="price">￥15.6</view>
-          </view>
-        </view>
-      </scroll-view>
-    </view>
-  </view>
-  <!-- 中间的图片 -->
-  <image src="/res/icon/banner@3x.png" class="go"></image>
-  <!-- 热卖 热销推荐 -->
-  <view class="best_sellers">
-    <view class="best_sellers_left fl">
-      <view class="best_left_title">
-        <image src="/res/icon/icon-hot@3x.png"></image>
-        <text>热卖</text>
+    <image src="/res/icon/banner@3x.png" class='banner'></image>
+    <!-- 优质套餐 -->
+    <view class="set_meal">
+      <view class="set_meal_header">
+        <view class="fl xing"></view>
+        <view class="quality fl">优质套餐</view>
+        <view class="fr reducte">每餐低至9.9元</view>
+        <view class="clear"></view>
       </view>
-      <view class="list">减脂套餐</view>
-      <view class="list">减脂套餐</view>
-      <view class="list">减脂套餐</view>
-      <view class="list">减脂套餐</view>
-      <view class="list">减脂套餐</view>
-    </view>
-    <view class="best_sellers_right fl">
-      <view class="best_sellers_right_title">热销推荐</view>
-      <view class="bst_view">
-        <image src="/res/icon/banner@3x.png" class="fl"></image>
-        <view class="fl bst_view_fr">
-          <view class="bst_title">招牌帕尼尼汉堡</view>
-          <view class="month">月销153</view>
-          <view class="shu">
-            <view class="shu_left fl">
-              <text class="yuan">￥</text>
-              <text class="price">16.9</text>元/份
+      <view class="set_meal_detaile">
+        <scroll-view scroll-x class='set_meal_scroll'>
+          <good-item class='goodItem' goodInfo='{{goodBoxInfo}}' />
+          <good-item class='goodItem' goodInfo='{{goodBoxInfo}}' />
+          <good-item class='goodItem' goodInfo='{{goodBoxInfo}}' />
+          <good-item class='goodItem' goodInfo='{{goodBoxInfo}}' />
+          <good-item class='goodItem' goodInfo='{{goodBoxInfo}}' />
+          <view class="scroll1">
+            <image src='/res/icon/banner@3x.png'></image>
+            <view class="specife">
+              <view class="specife_title">招牌帕尼尼套餐...</view>
+              <view class="price">￥15.6</view>
             </view>
-            <!-- 点击+弹出来的框 -->
-            <view class="shu_right fr" hidden="true">
-              <view class="fl reduce">-</view>
-              <view class="fl number">1</view>
-              <view class="fr add">+</view>
-              <view class="clear"></view>
+          </view>
+          <view class="scroll1">
+            <image src='/res/icon/banner@3x.png'></image>
+            <view class="specife">
+              <view class="specife_title">招牌帕尼尼套餐...</view>
+              <view class="price">￥15.6</view>
             </view>
-            <!-- 结束 -->
-            <view class="fr">
-              <view class="addmenu">+</view>
+          </view>
+          <view class="scroll1">
+            <image src='/res/icon/banner@3x.png'></image>
+            <view class="specife">
+              <view class="specife_title">招牌帕尼尼套餐...</view>
+              <view class="price">￥15.6</view>
             </view>
-            <view class='clear'></view>
           </view>
-        </view>
-        <view class="clear"></view>
+        </scroll-view>
       </view>
-      <view class="bst_view">
-        <image src="/res/icon/banner@3x.png" class="fl"></image>
-        <view class="fl bst_view_fr">
-          <view class="bst_title">招牌帕尼尼汉堡</view>
-          <view class="month">月销153</view>
-          <view class="shu">
-            <view class="shu_left fl">
-              <text class="yuan">￥</text>
-              <text class="price">16.9</text>元/份
+    </view>
+    <!-- 中间的图片 -->
+    <image mode='aspectFill' src="/res/icon/banner@3x.png" class="go"></image>
+    <!-- 热卖 热销推荐 -->
+    <view class="best_sellers">
+      <view class="best_sellers_left fl">
+        <view class="best_left_title">
+          <image src="/res/icon/icon-hot@3x.png"></image>
+          <text>热卖</text>
+        </view>
+        <view class="list">减脂套餐</view>
+        <view class="list">减脂套餐</view>
+        <view class="list">减脂套餐</view>
+        <view class="list">减脂套餐</view>
+        <view class="list">减脂套餐</view>
+      </view>
+      <view class="best_sellers_right fl">
+        <view class="best_sellers_right_title">热销推荐</view>
+        <good-item goodInfo='{{goodLineInfo}}' />
+        <good-item goodInfo='{{goodLineInfo}}' />
+        <good-item goodInfo='{{goodLineInfo}}' />
+        <good-item goodInfo='{{goodLineInfo}}' />
+        <good-item goodInfo='{{goodLineInfo}}' />
+        <!--
+        <view class="bst_view">
+          <image src="/res/icon/banner@3x.png" class="fl"></image>
+          <view class="fl bst_view_fr">
+            <view class="bst_title">招牌帕尼尼汉堡</view>
+            <view class="month">月销153</view>
+            <view class="shu">
+              <view class="shu_left fl">
+                <text class="yuan">￥</text>
+                <text class="price">16.9</text>元/份
+              </view>
+              <!-- 点击+弹出来的框 
+              <view class="shu_right fr" hidden="true">
+                <view class="fl reduce">-</view>
+                <view class="fl number">1</view>
+                <view class="fr add">+</view>
+                <view class="clear"></view>
+              </view>
+              <!-- 结束 
+              <view class="fr">
+                <view class="addmenu">+</view>
+              </view>
+              <view class='clear'></view>
             </view>
-            <!-- <view class="shu_right fr">
-              <view class="fl reduce">-</view>
-              <view class="fl number">1</view>
-              <view class="fr add">+</view>
-              <view class="clear"></view>
-            </view> -->
-            <reduce-add class="fr"></reduce-add>
-            <view class='clear'></view>
           </view>
+          <view class="clear"></view>
         </view>
-        <view class="clear"></view>
-      </view>
-    </view>
-    <view class="clear"></view>
-  </view>
-  <!-- 底部导航开始 -->
-  <view class="footer" hidden="true">
-    <image src="/res/icon/seletct-not-cart@3x.png" class="fl"></image>
-    <view class="food fl">未选择食物</view>
-    <view class="fr selected">选好了</view>
-    <view class="clear"></view>
-  </view>
-  <!-- 点开底部展开系列开始 -->
-  <view class="select_status" hidden='true'></view>
-  <!-- 点开底部展开系列结束 -->
-  <view class="open" hidden='true'>
-    <view class="open_title">
-      <view class="fl selected_goods">已选商品</view>
-      <view class="fr open_right">
-        <image src="/res/icon/icon-qk@3x.png"></image>
-        <text>清空</text>
-      </view>
-    </view>
-    <view class="part">
-      <view class="part1">
-        <image src="/res/icon/banner@3x.png" class="fl"></image>
-        <view class="fl part_right">
-          <view class="part_right_title">招牌帕尼尼汉堡</view>
-          <view class="part_detail">
-            <view class="part_detail_left">
-              <text class="yuan">￥</text>
-              <text class="price">16.9</text>元/分</view>
-            <reduce-add class="dign"></reduce-add>
-          </view>
-        </view>
-        <view class="clear"></view>
-      </view>
-      <view class="part1">
-        <image src="/res/icon/banner@3x.png" class="fl"></image>
-        <view class="fl part_right">
-          <view class="part_right_title">招牌帕尼尼汉堡</view>
-          <view class="part_detail">
-            <view class="part_detail_left">
-              <text class="yuan">￥</text>
-              <text class="price">16.9</text>元/分</view>
-            <reduce-add class="dign"></reduce-add>
-          </view>
-        </view>
-        <view class="clear"></view>
-      </view>
-    </view>
-    <!-- 底部的导航开始 -->
-    <view class="footer_nav">
-      <image src="/res/icon/select-cart@3x.png" class="fl"></image>
-      <view class="footer_num fl">3</view>
-      <view class="fl footer_price">
-        <text>￥</text>96.6</view>
-      <view class="fr select_right">选好了</view>
-    </view>
-    <!-- 底部的导航结束 -->
-  </view>
-  <!-- 选择点餐门店开始 -->
-  <view class="select_store" hidden='true'>
-    <view class="store_title">
-      <view class="fl store_title_left">请选择点餐门店</view>
-      <image src="/res/icon/icon-close-01@3x.png" class="fr"></image>
-      <view class="clear"></view>
-    </view>
-    <view class="store1">
-      <view class="store1_left">
-        <view class="fl">
-          <text>[离我最近]</text>道里爱建轻者总店
-        </view>
-        <image src="/res/icon/icon-select-ok@3x.png" class="fr"></image>
-        <view class="clear"></view>
-      </view>
-      <view class="store1_detail">
-        <view class="fl">道里区爱建路69-2号 科技广场旁边</view>
-        <view class="fr">0.98km</view>
-        <view class="clear"></view>
-      </view>
-    </view>
-    <view class="store1">
-      <view class="store1_left">
-        <view class="fl">
-          <text>[离我最近]</text>道里爱建轻者总店
-        </view>
-        <image src="/res/icon/icon-select-ok@3x.png" class="fr"></image>
-        <view class="clear"></view>
-      </view>
-      <view class="store1_detail">
-        <view class="fl">道里区爱建路69-2号 科技广场旁边</view>
-        <view class="fr">0.98km</view>
-        <view class="clear"></view>
-      </view>
-    </view>
-    <view class="store1">
-      <view class="store1_left">
-        <view class="fl">
-          <text>[离我最近]</text>道里爱建轻者总店
-        </view>
-        <image src="/res/icon/icon-select-ok@3x.png" class="fr"></image>
-        <view class="clear"></view>
-      </view>
-      <view class="store1_detail">
-        <view class="fl">道里区爱建路69-2号 科技广场旁边</view>
-        <view class="fr">0.98km</view>
-        <view class="clear"></view>
-      </view>
-    </view>
-  </view>
-  <!-- 选择点餐门店结束 -->
-</view>
 
-<!-- <nav-bottom></nav-bottom> -->
+
+        <view class="bst_view">
+          <image src="/res/icon/banner@3x.png" class="fl"></image>
+          <view class="fl bst_view_fr">
+            <view class="bst_title">招牌帕尼尼汉堡</view>
+            <view class="month">月销153</view>
+            <view class="shu">
+              <view class="shu_left fl">
+                <text class="yuan">￥</text>
+                <text class="price">16.9</text>元/份
+              </view>
+              <!-- <view class="shu_right fr">
+              <view class="fl reduce">-</view>
+              <view class="fl number">1</view>
+              <view class="fr add">+</view>
+              <view class="clear"></view>
+            </view> 
+              <reduce-add class="fr"></reduce-add>
+              <view class='clear'></view>
+            </view>
+          </view>
+          <view class="clear"></view>
+        </view>
+
+-->
+
+
+      </view>
+      <view class="clear"></view>
+    </view>
+    <!-- 底部导航开始 -->
+    <view class="footer">
+      <image src="/res/icon/seletct-not-cart@3x.png" class="fl"></image>
+      <view class="food fl">未选择食物</view>
+      <view class="fr selected">选好了</view>
+      <view class="clear"></view>
+    </view>
+    <!-- 点开底部展开系列开始 -->
+    <view class="select_status" hidden='true'></view>
+    <!-- 点开底部展开系列结束 -->
+    <view class="open" hidden='true'>
+      <view class="open_title">
+        <view class="fl selected_goods">已选商品</view>
+        <view class="fr open_right">
+          <image src="/res/icon/icon-qk@3x.png"></image>
+          <text>清空</text>
+        </view>
+      </view>
+      <view class="part">
+        <view class="part1">
+          <image src="/res/icon/banner@3x.png" class="fl"></image>
+          <view class="fl part_right">
+            <view class="part_right_title">招牌帕尼尼汉堡</view>
+            <view class="part_detail">
+              <view class="part_detail_left">
+                <text class="yuan">￥</text>
+                <text class="price">16.9</text>元/分</view>
+              <reduce-add class="dign"></reduce-add>
+            </view>
+          </view>
+          <view class="clear"></view>
+        </view>
+        <view class="part1">
+          <image src="/res/icon/banner@3x.png" class="fl"></image>
+          <view class="fl part_right">
+            <view class="part_right_title">招牌帕尼尼汉堡</view>
+            <view class="part_detail">
+              <view class="part_detail_left">
+                <text class="yuan">￥</text>
+                <text class="price">16.9</text>元/分</view>
+              <reduce-add class="dign"></reduce-add>
+            </view>
+          </view>
+          <view class="clear"></view>
+        </view>
+      </view>
+      <!-- 底部的导航开始 -->
+      <view class="footer_nav">
+        <image src="/res/icon/select-cart@3x.png" class="fl"></image>
+        <view class="footer_num fl">3</view>
+        <view class="fl footer_price">
+          <text>￥</text>96.6</view>
+        <view class="fr select_right">选好了</view>
+      </view>
+      <!-- 底部的导航结束 -->
+    </view>
+    <!-- 选择点餐门店开始 -->
+    <view class="select_store" hidden='true'>
+      <view class="store_title">
+        <view class="fl store_title_left">请选择点餐门店</view>
+        <image src="/res/icon/icon-close-01@3x.png" class="fr"></image>
+        <view class="clear"></view>
+      </view>
+      <view class="store1">
+        <view class="store1_left">
+          <view class="fl">
+            <text>[离我最近]</text>道里爱建轻者总店
+          </view>
+          <image src="/res/icon/icon-select-ok@3x.png" class="fr"></image>
+          <view class="clear"></view>
+        </view>
+        <view class="store1_detail">
+          <view class="fl">道里区爱建路69-2号 科技广场旁边</view>
+          <view class="fr">0.98km</view>
+          <view class="clear"></view>
+        </view>
+      </view>
+      <view class="store1">
+        <view class="store1_left">
+          <view class="fl">
+            <text>[离我最近]</text>道里爱建轻者总店
+          </view>
+          <image src="/res/icon/icon-select-ok@3x.png" class="fr"></image>
+          <view class="clear"></view>
+        </view>
+        <view class="store1_detail">
+          <view class="fl">道里区爱建路69-2号 科技广场旁边</view>
+          <view class="fr">0.98km</view>
+          <view class="clear"></view>
+        </view>
+      </view>
+      <view class="store1">
+        <view class="store1_left">
+          <view class="fl">
+            <text>[离我最近]</text>道里爱建轻者总店
+          </view>
+          <image src="/res/icon/icon-select-ok@3x.png" class="fr"></image>
+          <view class="clear"></view>
+        </view>
+        <view class="store1_detail">
+          <view class="fl">道里区爱建路69-2号 科技广场旁边</view>
+          <view class="fr">0.98km</view>
+          <view class="clear"></view>
+        </view>
+      </view>
+    </view>
+    <!-- 选择点餐门店结束 -->
+  </view>
+
+
+
+
+  <nav-bottom></nav-bottom>
 
 </theme-view>

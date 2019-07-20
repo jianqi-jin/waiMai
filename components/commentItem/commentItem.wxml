@@ -12,6 +12,8 @@
     </view>
     <view class='commentContent'>很好吃对身体还健康，真的是不错的选择以后会常来,
 成为您家忠实粉</view>
+<view class='commentImg'>
+</view>
   </view>
 </view>
 <!-- commentItem组件抽象 End -->

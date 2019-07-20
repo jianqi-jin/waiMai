@@ -3,6 +3,7 @@
   "usingComponents": {
     "nav-bottom": "/components/navBottom/navBottom",
     "reduce-add": "/components/reduceAdd/reduceAdd",
-    "theme-view": "/components/themeView/themeView"
+    "theme-view": "/components/themeView/themeView",
+    "good-item": "/components/goodItem/goodItem"
   }
 }

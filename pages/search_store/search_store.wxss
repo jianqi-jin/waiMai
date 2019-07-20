@@ -7,15 +7,18 @@
   margin-right: 25rpx;
 }
 .search{
-  width: 510rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  width: 702rpx;
   height: 82rpx;
   line-height: 82rpx;
   background: #fff;
   margin: 0 auto;
-  margin-top: 12rpx;
-  padding-left: 192rpx;
+  top: 12rpx;
+  left: 24rpx;
   border-radius: 5rpx;
-  margin-bottom: 48rpx;
 }
 .search>image{
   width: 32rpx;
@@ -39,8 +42,8 @@
   margin-bottom: 10rpx;
 }
 .examine>image{
-  width: 15rpx;
-  height: 22rpx;
+  width: 24rpx;
+  height: 24rpx;
   margin-left: 15rpx;
 }
 .search_store{
@@ -66,7 +69,7 @@
   border-bottom: 1rpx solid #f5f5f5;
 }
 .address>image{
-  width: 14rpx;
+  width: 24rpx;
   height: 24rpx;
 }
 .address_btn{
@@ -101,4 +104,10 @@ display: none;
   background:var(--themeBackC);
   position: fixed;
   bottom: 0;
+}
+
+.mainBox{
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
 }

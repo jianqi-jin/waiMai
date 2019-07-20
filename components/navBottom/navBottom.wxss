@@ -2,7 +2,7 @@
 
 .navBottomV {
   position: fixed;
-  bottom: 50rpx;
+  bottom: 100rpx;
   width: 100rpx;
   right: 30rpx;
 }
