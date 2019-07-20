@@ -21,6 +21,11 @@ Page({
       title: '轻者点餐',
     })
   },
+  navToOrder(){
+    wx.navigateTo({
+      url: '/pages/good/orderDetail/orderDetail'
+    })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

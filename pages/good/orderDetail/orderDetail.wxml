@@ -50,7 +50,7 @@
         <view>实付</view>
         <view class='bigPrice'>￥59.8</view>
       </view>
-      <view class='payBoxBtn'>立即支付</view>
+      <navigator open-type='navigate' url='/pages/order/orderList/orderList' class='payBoxBtn'>立即支付</navigator>
     </view>
   </view>
 

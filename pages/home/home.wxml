@@ -129,8 +129,11 @@
       </view>
       <view class="clear"></view>
     </view>
+
+    <car-bar bind:onAction='navToOrder'/>
+
     <!-- 底部导航开始 -->
-    <view class="footer">
+    <view class="footer" hidden='true'>
       <image src="/res/icon/seletct-not-cart@3x.png" class="fl"></image>
       <view class="food fl">未选择食物</view>
       <view class="fr selected">选好了</view>

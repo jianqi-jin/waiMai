@@ -1,6 +1,6 @@
 <!--components/goodItem/goodItem.wxml-->
 <!-- type:line 在单行里面展示 Start -->
-<view wx:if='{{goodInfo.type == "line"}}' class='lineItem'>
+<navigator open-type='navigate' url='/pages/good/goodDetail/goodDetail' wx:if='{{goodInfo.type == "line"}}' class='lineItem'>
   <view class='lineLeft'>
     <image class='lineImg' mode='aspectFill' src='/res/icon/banner@3x.png'></image>
   </view>
@@ -17,12 +17,12 @@
       </view>
 
       <view class='reduce'>
-        <reduce-add number='1' />
+        <reduce-add bindonAction='onNumChange' number='{{number}}' />
       </view>
 
     </view>
   </view>
-</view>
+</navigator>
 <!-- type:line 在单行里面展示 End -->
 
 
@@ -45,6 +45,6 @@
       <view class='priceInfo'>元/份</view>
     </view>
   </view>
-  <reduce-add class='boxReduceAdd' number='1'/>
+  <reduce-add bindonAction='onNumChange' number='{{number}}' class='boxReduceAdd' />
 </view>
 <!-- type:box 在块里面展示 End -->

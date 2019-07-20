@@ -3,7 +3,8 @@
     "theme-view": "/components/themeView/themeView",
     "reduce-add": "/components/reduceAdd/reduceAdd",
     "info-item": "/components/infoItem/infoItem",
-    "comment-item": "/components/commentItem/commentItem"
+    "comment-item": "/components/commentItem/commentItem",
+    "car-bar": "/components/carBar/carBar"
   },
   "navigationBarTitleText": "商品详情"
 }

@@ -4,6 +4,7 @@
     "nav-bottom": "/components/navBottom/navBottom",
     "reduce-add": "/components/reduceAdd/reduceAdd",
     "theme-view": "/components/themeView/themeView",
-    "good-item": "/components/goodItem/goodItem"
+    "good-item": "/components/goodItem/goodItem",
+    "car-bar": "/components/carBar/carBar"
   }
 }

@@ -21,7 +21,7 @@
         <view>36</view>
       </view>
       <view class='goodReduce'>
-        <reduce-add number='1'></reduce-add>
+        <reduce-add bindonAction='onNumChange' number='{{number}}'></reduce-add>
       </view>
     </view>
   </view>
@@ -42,3 +42,6 @@
   <rich-text></rich-text>
 </view>
 </theme-view>
+
+
+<car-bar />

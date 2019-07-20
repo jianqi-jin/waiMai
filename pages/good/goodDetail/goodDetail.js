@@ -1,5 +1,6 @@
 Page({
   data: {
+    number: 0,
     commentTitle: {
       title: "餐品评价",
       iconArr: "/res/icon/icon-right-little@3x.png",
@@ -13,5 +14,20 @@ Page({
       'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
       'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
     ]
+  },
+  onLoad() {
+
+  },
+  onNumChange(e) {
+    if (e.detail.type == "add") {
+      this.setData({
+        number: this.data.number + 1
+      })
+    } else {
+      this.setData({
+        number: this.data.number - 1
+      })
+
+    }
   }
 })
