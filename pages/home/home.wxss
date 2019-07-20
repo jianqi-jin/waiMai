@@ -343,3 +343,10 @@
   top:123rpx;
   right: 0rpx;
 }
+.footer_nav{
+  width: 702rpx;
+  height: 98rpx;
+  margin: 0 auto;
+  border-radius: 49rpx;
+  /* box-shadow:  */
+}
