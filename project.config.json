@@ -1,7 +1,12 @@
 {
 	"description": "项目配置文件",
 	"packOptions": {
-		"ignore": []
+		"ignore": [
+			{
+				"type": "folder",
+				"value": "doc"
+			}
+		]
 	},
 	"setting": {
 		"urlCheck": true,
@@ -39,7 +44,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -94,6 +99,20 @@
 					"id": -1,
 					"name": "goodOrderDettail",
 					"pathName": "pages/good/orderDetail/orderDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "qrcode",
+					"pathName": "pages/user/qrcode/qrcode",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "goodDetail",
+					"pathName": "pages/good/goodDetail/goodDetail",
 					"scene": null
 				}
 			]

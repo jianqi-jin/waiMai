@@ -2,7 +2,8 @@
   "usingComponents": {
     "info-item": "/components/infoItem/infoItem",
     "theme-view": "/components/themeView/themeView",
-    "reduce-add": "/components/reduceAdd/reduceAdd"
+    "reduce-add": "/components/reduceAdd/reduceAdd",
+    "choose-box": "/components/chooseBox/chooseBox"
   },
   "navigationBarTitleText": "确认订单"
 }

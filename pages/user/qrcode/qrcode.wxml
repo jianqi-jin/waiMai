@@ -1,2 +1,11 @@
 <!--pages/user/qrcode/qrcode.wxml-->
-<text>pages/user/qrcode/qrcode.wxml</text>
+<theme-view>
+  <view class='qrBox'>
+    <view class='title'>道里爱建轻者总店</view>
+    <view class='qrCodeBox'>
+      <view class='ewCode'></view>
+      <view class='qrCode'></view>
+    </view>
+    <view class='title'>请将条形码/二维码出示给店员</view>
+  </view>
+</theme-view>
