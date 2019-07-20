@@ -20,25 +20,25 @@
     <view class="set_meal_detaile">
       <scroll-view scroll-x class='set_meal_scroll'>
         <view class="scroll1">
-            <image src='/doc/banner@3x.png'></image>
-            <view class="specife">
-              <view class="specife_title">招牌帕尼尼套餐...</view>
-              <view class="price">￥15.6</view>
-            </view>
+          <image src='/doc/banner@3x.png'></image>
+          <view class="specife">
+            <view class="specife_title">招牌帕尼尼套餐...</view>
+            <view class="price">￥15.6</view>
+          </view>
         </view>
-         <view class="scroll1">
-            <image src='/doc/banner@3x.png'></image>
-            <view class="specife">
-              <view class="specife_title">招牌帕尼尼套餐...</view>
-              <view class="price">￥15.6</view>
-            </view>
+        <view class="scroll1">
+          <image src='/doc/banner@3x.png'></image>
+          <view class="specife">
+            <view class="specife_title">招牌帕尼尼套餐...</view>
+            <view class="price">￥15.6</view>
+          </view>
         </view>
-         <view class="scroll1">
-            <image src='/doc/banner@3x.png'></image>
-            <view class="specife">
-              <view class="specife_title">招牌帕尼尼套餐...</view>
-              <view class="price">￥15.6</view>
-            </view>
+        <view class="scroll1">
+          <image src='/doc/banner@3x.png'></image>
+          <view class="specife">
+            <view class="specife_title">招牌帕尼尼套餐...</view>
+            <view class="price">￥15.6</view>
+          </view>
         </view>
       </scroll-view>
     </view>
@@ -67,7 +67,8 @@
           <view class="month">月销153</view>
           <view class="shu">
             <view class="shu_left fl">
-              <text class="yuan">￥</text><text class="price">16.9</text>元/份
+              <text class="yuan">￥</text>
+              <text class="price">16.9</text>元/份
             </view>
             <!-- 点击+弹出来的框 -->
             <view class="shu_right fr" hidden="true">
@@ -77,7 +78,7 @@
               <view class="clear"></view>
             </view>
             <!-- 结束 -->
-             <view class="fr">
+            <view class="fr">
               <view class="addmenu">+</view>
             </view>
             <view class='clear'></view>
@@ -85,14 +86,15 @@
         </view>
         <view class="clear"></view>
       </view>
-       <view class="bst_view">
+      <view class="bst_view">
         <image src="/doc/banner@3x.png" class="fl"></image>
         <view class="fl bst_view_fr">
           <view class="bst_title">招牌帕尼尼汉堡</view>
           <view class="month">月销153</view>
           <view class="shu">
             <view class="shu_left fl">
-              <text class="yuan">￥</text><text class="price">16.9</text>元/份
+              <text class="yuan">￥</text>
+              <text class="price">16.9</text>元/份
             </view>
             <!-- <view class="shu_right fr">
               <view class="fl reduce">-</view>
@@ -119,7 +121,7 @@
   <!-- 点开底部展开系列开始 -->
   <view class="select_status"></view>
   <!-- 点开底部展开系列结束 -->
-  <view class="open">
+  <view class="open" hidden='true'>
     <view class="open_title">
       <view class="fl selected_goods">已选商品</view>
       <view class="fr open_right">
@@ -133,8 +135,10 @@
         <view class="fl part_right">
           <view class="part_right_title">招牌帕尼尼汉堡</view>
           <view class="part_detail">
-            <view class="part_detail_left"><text class="yuan">￥</text><text class="price">16.9</text>元/分</view>
-            <reduce-add class="dign"></reduce-add>  
+            <view class="part_detail_left">
+              <text class="yuan">￥</text>
+              <text class="price">16.9</text>元/分</view>
+            <reduce-add class="dign"></reduce-add>
           </view>
         </view>
         <view class="clear"></view>
@@ -144,8 +148,10 @@
         <view class="fl part_right">
           <view class="part_right_title">招牌帕尼尼汉堡</view>
           <view class="part_detail">
-            <view class="part_detail_left"><text class="yuan">￥</text><text class="price">16.9</text>元/分</view>
-            <reduce-add class="dign"></reduce-add>  
+            <view class="part_detail_left">
+              <text class="yuan">￥</text>
+              <text class="price">16.9</text>元/分</view>
+            <reduce-add class="dign"></reduce-add>
           </view>
         </view>
         <view class="clear"></view>
@@ -153,10 +159,23 @@
     </view>
     <!-- 底部的导航开始 -->
     <view class="footer_nav">
-      
+      <image src="/res/icon/select-cart@3x.png" class="fl"></image>
+      <view class="footer_num fl">3</view>
+      <view class="fl footer_price">
+        <text>￥</text>96.6</view>
+      <view class="fr select_right">选好了</view>
     </view>
     <!-- 底部的导航结束 -->
   </view>
+  <!-- 选择点餐门店开始 -->
+  <view class="select_store">
+    <view class="store_title">
+      <view class="fl store_title_left"><请选择点餐门店/view>
+      <view class="fr"></view>
+      <view class="clear"></view>
+    </view>
+  </view>
+  <!-- 选择点餐门店结束 -->
 </view>
 
 <!-- <nav-bottom></nav-bottom> -->

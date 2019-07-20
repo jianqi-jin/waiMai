@@ -314,6 +314,9 @@
   padding-bottom: 25rpx;
   border-bottom: 1rpx solid #F5F5F5;
 }
+.part1:last-child{
+  border-bottom: none;
+}
 .part1>image{
   width: 180rpx;
   height: 180rpx;
@@ -344,9 +347,68 @@
   right: 0rpx;
 }
 .footer_nav{
-  width: 702rpx;
+  width: 646rpx;
+  padding-left: 45rpx;
+  padding-right: 11rpx;
   height: 98rpx;
+  line-height: 98rpx;
   margin: 0 auto;
   border-radius: 49rpx;
+  box-shadow:0px 0px 10px #F5F5F5;
+  position: relative;
   /* box-shadow:  */
+}
+.footer_nav>image{
+  width: 78rpx;
+  height: 78rpx;
+  margin-right: 15rpx;
+  position: relative;
+  top: -10rpx;
+}
+.footer_price{
+  font-size: 35rpx;
+  color: #EA9E17;
+  font-weight: bold;
+}
+.footer_price>text{
+  font-size: 25rpx;
+ font-weight: normal;
+}
+.select_right{
+  width: 180rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin-top: 12rpx;
+  background: #F7BC54;
+  border-radius: 40rpx;
+  font-size: 32rpx;
+  color: #fff;
+  font-weight: bold;
+}
+.footer_num{
+  position: absolute;
+  top:-22rpx;
+  left: 93rpx;
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 100%;
+  background: #E1372F;
+  color: #fff;
+  text-align: center;
+  line-height: 32rpx;
+  font-weight: bold;
+  font-size: 24rpx;
+}
+/* 选择门店开始 */
+.select_store{
+  width: 100%;
+  background: #fff;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  }
+.store_title_left{
+  font-size: 36rpx;
+  color: #333333;
+  /* font-weight: bold; */
 }
