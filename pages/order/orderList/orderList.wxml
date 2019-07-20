@@ -6,7 +6,7 @@
     <nav-title bind:onAction='onNavChange' navTitleInfo='{{navTitleInfo}}'></nav-title>
   </view>
 
-  <order-item></order-item>
+  <order-item wx:for='{{orderList}}' wx:key='index' orderInfo='{{item}}' bind:onAction='onAction'></order-item>
 
   <nav-bottom></nav-bottom>
 </theme-view>

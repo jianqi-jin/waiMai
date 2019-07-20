@@ -8,36 +8,36 @@ Page({
     phone: '0428-111-2534',
     info: [{
         title: '优惠券',
-        iconImg: '',
-        iconArr: '',
+      iconImg: '/res/icon/icon-yhq@3x.png',
+        iconArr: '/res/icon/icon-right-little@3x.png',
         type: 'navigate',
         url: '/pages/user/coupon/coupon'
       },
       {
         title: '收货地址',
-        iconImg: '',
-        iconArr: '',
+        iconImg: '/res/icon/icon-address@3x.png',
+        iconArr: '/res/icon/icon-right-little@3x.png',
         type: 'navigate',
         url: '/pages/address/addressList/addressList'
       },
       {
         title: '余额明细',
-        iconImg: '',
-        iconArr: '',
+        iconImg: '/res/icon/icon-bankcard@3x.png',
+        iconArr: '/res/icon/icon-right-little@3x.png',
         type: 'navigate',
         url: '/pages/user/moneyDetail/moneyDetail'
       },
       {
         title: '我的评价',
-        iconImg: '',
-        iconArr: '',
+        iconImg: '/res/icon/icon-notice@3x.png',
+        iconArr: '/res/icon/icon-right-little@3x.png',
         type: 'navigate',
         url: '/pages/user/myComment/myComment'
       },
       {
         title: '客服中心',
-        iconImg: '',
-        iconArr: '',
+        iconImg: '/res/icon/icon-service@3x.png',
+        iconArr: '/res/icon/icon-right-little@3x.png',
         type: 'call'
       }
     ]

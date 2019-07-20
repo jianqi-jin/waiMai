@@ -1,4 +1,3 @@
-
 // pages/order/orderList/orderList.js
 Page({
 
@@ -28,11 +27,23 @@ Page({
           title: '店内点餐',
           selected: false
         }
-      ]
-    }
+      ],
+    },
+    orderList: [{
+      id: '0',
+      title: '道里爱建轻者轻食总店',
+      info: '招牌帕尼尼沙拉餐套餐等 2件商品',
+      status: '待支付',
+      price: '16.9'
+    }, {
+      id: '0',
+      title: '道里爱建轻者轻食总店',
+      info: '招牌帕尼尼沙拉餐套餐等 2件商品',
+      status: '已完成',
+      price: '16.9'
+    }]
 
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
@@ -44,6 +55,13 @@ Page({
     this.setData({
       ['navTitleInfo.currentNavIndex']: e.detail.id
     })
+  },
+  onAction(e) {
+    if (e.detail.type == 'itemTap') {
+      wx.navigateTo({
+        url: '/pages/order/orderDetail/orderDetail'
+      })
+    }
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

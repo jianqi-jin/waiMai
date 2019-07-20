@@ -14,4 +14,4 @@ $RECYCLE.BIN/
 node_modules/
 
 #config
-./project.config.json
+project.config.json

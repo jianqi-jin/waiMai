@@ -66,7 +66,7 @@
   justify-content: center;
   background: var(--bgColor);
   padding: 35rpx 0rpx;
-  margin: 0 -25rpx -26rpx -25rpx;
+  margin: 0 -25rpx -30rpx -25rpx;
 }
 
 .payBoxContentBottom view:last-child {
@@ -80,6 +80,7 @@
 }
 .orderInfoBox{
   margin: 20rpx 24rpx 0 24rpx;
+  border-radius: 5rpx;
 }
 .orderInfoBoxTitle {
   font-size: 30rpx;
