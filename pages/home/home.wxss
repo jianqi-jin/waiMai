@@ -48,7 +48,7 @@
   width: 10rpx;
   height: 33rpx;
   border-radius: 5rpx;
-  background: #EBC278;
+  background: var(--themeBackC);
   margin-right: 15rpx;
   margin-top: 7rpx;
 }
@@ -86,7 +86,7 @@
 }
 .price{
   font-size: 24rpx;
-  color: #EA9E17;
+  color: var(--themeC);
   padding-top: 6rpx;
   padding-bottom: 18rpx;
 }
@@ -165,11 +165,11 @@
 }
 .yuan{
   font-size: 23rpx;
-  color:#EA9E17;
+  color:var(--themeC);
 }
 .price{
   font-size: 28rpx;
-  color:#EA9E17;
+  color:var(--themeC);
   font-weight: bold;
   margin-right: 5rpx;
 }
@@ -179,7 +179,7 @@
 .shu_right{
   width: 131rpx;
   height: 46rpx;
-  border:1rpx solid #F7BC54;
+  border:1rpx solid var(--themeC);
   border-radius: 23rpx;
   line-height: 46rpx;
 }
@@ -196,7 +196,7 @@
 }
 .reduce{
   font-size: 30rpx;
-  color: #F7BC54;
+  color: var(--themeC);
   font-weight: bold;
 }
 .number{
@@ -207,7 +207,7 @@
 .add{
   font-size: 30rpx;
   color: #fff;
-  background: #F7BC54;
+  background: var(--themeC);
   border-radius: 100%; 
 }
 .bst_view{
@@ -218,7 +218,7 @@
 .addmenu{
   width: 46rpx;
   height: 46rpx;
-  background: #F7BC54;
+  background: var(--themeBackC);
   border-radius: 100%;
   text-align: center;
   color: #fff;
@@ -367,7 +367,7 @@
 }
 .footer_price{
   font-size: 35rpx;
-  color: #EA9E17;
+  color: var(--themeC);
   font-weight: bold;
 }
 .footer_price>text{
@@ -380,7 +380,7 @@
   text-align: center;
   line-height: 80rpx;
   margin-top: 12rpx;
-  background: #F7BC54;
+  background: var(--themeBackC);
   border-radius: 40rpx;
   font-size: 32rpx;
   color: #fff;
@@ -406,9 +406,44 @@
   background: #fff;
   border-top-left-radius: 30rpx;
   border-top-right-radius: 30rpx;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
   }
+.store_title{
+  padding: 49rpx 25rpx 20rpx 25rpx;
+}
 .store_title_left{
   font-size: 36rpx;
   color: #333333;
-  /* font-weight: bold; */
+  font-weight: bold;
+}
+.store_title>image{
+  width: 32rpx;
+  height: 32rpx;
+}
+.store1{
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  padding-bottom: 38rpx;
+  padding-top: 38rpx;
+}
+.store1_left{
+  font-size: 28rpx;
+  color: #333333;
+}
+.store1_left>view>text{
+  color: var(--themeC);
+}
+.store1_detail{
+  font-size: 24rpx;
+  color: #999999;
+  padding-top: 11rpx;
+}
+.store1_left>image{
+  width: 35rpx;
+  height: 35rpx;
+}
+.store1:nth-child(2){
+  border-bottom: 1rpx solid #f5f5f5;
 }
