@@ -1,5 +1,7 @@
 /* pages/search/search.wxss */
-
+page{
+  background: #fff;
+}
 .header {
   width: 460rpx;
   height: 72rpx;

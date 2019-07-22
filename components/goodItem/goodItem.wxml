@@ -1,16 +1,16 @@
 <!--components/goodItem/goodItem.wxml-->
 <!-- type:line 在单行里面展示 Start -->
-<navigator open-type='navigate' url='/pages/good/goodDetail/goodDetail' wx:if='{{goodInfo.type == "line"}}' class='lineItem'>
-  <view class='lineLeft'>
+<view wx:if='{{goodInfo.type == "line"}}' class='lineItem'>
+  <view class='lineLeft' bindtap='navToDetail'>
     <image class='lineImg' mode='aspectFill' src='/res/icon/banner@3x.png'></image>
   </view>
   <view class='lineRight'>
-    <view class='lineTextBox'>
+    <view class='lineTextBox' bindtap='navToDetail'>
       <view class='titleFont'>招牌帕尼尼汉堡</view>
       <view class='infoFont'>月销153</view>
     </view>
     <view class='linePriceBox'>
-      <view class='priceBox'>
+      <view class='priceBox' bindtap='navToDetail'>
         <view class='priceNumHead'>￥</view>
         <view class='priceNum'>15.6</view>
         <view class='priceInfo'>元/份</view>
@@ -22,7 +22,7 @@
 
     </view>
   </view>
-</navigator>
+</view>
 <!-- type:line 在单行里面展示 End -->
 
 

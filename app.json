@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/search_store/search_store",
     "pages/home/home",
+    "pages/search_store/search_store",
     "pages/good/orderDetail/orderDetail",
     "pages/order/orderDetail/orderDetail",
     "pages/order/orderList/orderList",
@@ -19,7 +19,6 @@
     "pages/search/search",
     "pages/good/goodDetail/goodDetail",
     "pages/search_store"
-
   ],
   "window": {
     "backgroundTextStyle": "light",

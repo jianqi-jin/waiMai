@@ -2,11 +2,14 @@
   <view class="container-page">
     <view class="header">
       <image mode='aspectFill' src="/res/icon/icon-add-little@3x.png" class="pst fl"></image>
-      <view class="heaer_middle fl">
+      <navigator open-type='navigate' url='/pages/search_store/search_store' class="heaer_middle fl">
         <view class="address">哈尔滨轻者轻食爱建餐厅</view>
         <view class="add_detail">哈尔滨市道里区爱建路69-2号 世纪广场旁边</view>
-      </view>
-      <image src="/res/icon/icon-search@3x.png" class="search fr"></image>
+      </navigator>
+      <navigator open-type='navigate' url='/pages/search/search' class="search fr">
+        <image class='search' src="/res/icon/icon-search@3x.png"></image>
+      </navigator>
+
       <view class="clear"></view>
     </view>
     <image src="/res/icon/banner@3x.png" class='banner'></image>
@@ -130,7 +133,7 @@
       <view class="clear"></view>
     </view>
 
-    <car-bar bind:onAction='navToOrder'/>
+    <car-bar bind:onAction='navToOrder' />
 
     <!-- 底部导航开始 -->
     <view class="footer" hidden='true'>

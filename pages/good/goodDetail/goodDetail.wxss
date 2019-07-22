@@ -1,5 +1,7 @@
 /* pages/good/goodDetail/goodDetail.wxss */
-
+page{
+  padding-bottom: 120rpx;
+}
 .swiper {
   height: 750rpx;
   width: 100%;

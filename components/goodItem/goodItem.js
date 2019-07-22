@@ -7,7 +7,8 @@ Component({
     goodInfo: {
       type: Object,
       value: {
-        type: "line" //或者box
+        type: "line", //或者box
+        navFlag: true
       }
     }
   },
@@ -22,7 +23,16 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    move(){
 
+    },
+    navToDetail(){
+      if(goodInfo.nav == true){
+        wx.navigateTo({
+          url: '/pages/good/goodDetail/goodDetail'
+        })
+      }
+    },
     onNumChange(e) {
       let type = e.detail.type;
       if (type == 'add') {

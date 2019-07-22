@@ -11,7 +11,11 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    showFlag: false,
+    goodInfo: {
+      navFlag: false,
+      type: 'line'
+    }
   },
 
   /**
@@ -19,7 +23,20 @@ Component({
    */
   methods: {
     onTap(e) {
-      this.triggerEvent('onAction', {})
+      let type = e.currentTarget.dataset.type
+      this.triggerEvent('onAction', {
+        type
+      })
+    },
+    close() {
+      this.setData({
+        showFlag: false
+      })
+    },
+    show() {
+      this.setData({
+        showFlag: true
+      })
     }
   }
 })

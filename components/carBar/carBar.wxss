@@ -1,5 +1,116 @@
 /* components/cardBar/carBar.wxss */
 
+/* 组件抽象 */
+
+.chooseMask {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.titleRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.priceText {
+  color: rgba(153, 153, 153, 1);
+}
+
+.carListBox {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  padding-bottom: 120rpx;
+}
+scroll-view{
+  height: 100%;
+  max-height: 700rpx!important;
+}
+.titleLeft {
+  color: rgba(153, 153, 153, 1);
+}
+
+.titleBox {
+  padding: 0 25rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 88rpx;
+  background: var(--bgColor);
+}
+
+.icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.carBarBox {
+  position: fixed;
+  bottom: 10rpx;
+  width: 100%;
+  z-index: 3;
+}
+
+.mainBox {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 702rpx;
+  height: 98rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 15rpx 0px rgba(102, 102, 102, 0.1);
+  border-radius: 100rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carBarLeft {
+  flex-direction: row;
+  margin-left: 45rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.btnBox {
+  width: 180rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin-right: 9rpx;
+  background: var(--themeBackCG);
+  border-radius: 40rpx;
+  font-size: 32rpx;
+  color: #fff;
+  font-weight: bold;
+}
+
+.carBarLeftImg {
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.carBarLeftImg image {
+  position: absolute;
+  bottom: 18rpx;
+}
+
+/* 
 .fl {
   float: left;
 }
@@ -12,7 +123,7 @@
   clear: both;
 }
 
-/* 底部导航 */
+/* 底部导航 
 
 .footer {
   width: 648rpx;
@@ -29,13 +140,7 @@
   padding-right: 9rpx;
 }
 
-.footer>image {
-  width: 78rpx;
-  height: 78rpx;
-  position: relative;
-  top: -10rpx;
-  margin-right: 16rpx;
-}
+
 
 .food {
   font-size: 28rpx;
@@ -55,7 +160,7 @@
   margin-top: 9rpx;
 }
 
-/* 展开列表开始 */
+/* 展开列表开始 
 
 .select_status {
   width: 100%;
@@ -139,7 +244,7 @@
 /* .yuan{
   font-size: 24rpx;
   color: #EA9E17;
-} */
+} 
 
 .part_detail_left {
   font-size: 22rpx;
@@ -162,7 +267,7 @@
   border-radius: 49rpx;
   box-shadow: 0px 0px 10px #f5f5f5;
   position: relative;
-  /* box-shadow:  */
+  /* box-shadow:  
 }
 
 .footer_nav>image {
@@ -184,18 +289,7 @@
   font-weight: normal;
 }
 
-.select_right {
-  width: 180rpx;
-  height: 80rpx;
-  text-align: center;
-  line-height: 80rpx;
-  margin-top: 12rpx;
-  background: var(--themeBackC);
-  border-radius: 40rpx;
-  font-size: 32rpx;
-  color: #fff;
-  font-weight: bold;
-}
+
 
 .footer_num {
   position: absolute;
@@ -210,4 +304,4 @@
   line-height: 32rpx;
   font-weight: bold;
   font-size: 24rpx;
-}
+} */
